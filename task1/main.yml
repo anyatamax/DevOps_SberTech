@@ -1,0 +1,30 @@
+---
+- name: Start python app
+  hosts: all
+
+  tasks:
+    - name: Make git dir
+      file:
+        path: "./tmp/repo"
+        state: directory
+        mode: 0777
+        recurse: yes
+    - name: Git clone repo
+      git:
+        repo: https://github.com/anyatamax/DevOps_SberTech.git
+        dest: ./tmp/repo
+        version: main
+        clone: yes
+        update: yes
+        force: yes
+
+    - name: Make code executable 
+      ansible.builtin.shell:
+        cmd: chmod +x ./tmp/repo/my_app/app.py
+
+    - name: Run Python script with virtual environment
+      shell: |
+        source ./tmp/repo/.venv/bin/activate
+        pip3 install -r ./tmp/repo/my_app/requirements.txt
+        python3 ./tmp/repo/my_app/app.py
+...
