@@ -1,0 +1,10 @@
+all:
+  vars:
+    ansible_python_interpreter: /usr/local/bin/python3.9
+  hosts:
+    name_local_server:
+      ansible_port: "2200"
+      ansible_host: "127.0.0.1"
+      ansible_sudo_pass: "password"
+      ansible_user: "root"
+      ansible_password: "password"

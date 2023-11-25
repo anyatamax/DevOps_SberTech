@@ -1,0 +1,47 @@
+# - name: Create docker
+#   pip:
+#     name: "docker<5"
+#   become: yes
+
+- name: Run Python script with virtual environment
+  shell: pip install --upgrade docker
+
+- name: Copy roles
+  copy: 
+    src: roles
+    dest: ~/
+
+- name: Make git dir
+  file:
+    path: "~/tmp/repo"
+    state: directory
+    mode: 0777
+    recurse: yes
+
+- name: Git clone repo
+  git:
+    repo: https://github.com/anyatamax/DevOps_SberTech.git
+    dest: ~/tmp/repo
+    version: main
+    clone: yes
+    update: yes
+    force: yes
+
+# - name: Run Python script with virtual environment
+#   shell: ls ~/tmp/repo/my_app
+
+# - name: Copy app
+#   copy: 
+#     src: ~/tmp/repo/my_app
+#     dest: ~/
+#   become: yes
+
+- name: Run Python app
+  community.docker.docker_compose:
+    project_src: ~/roles/test/tasks
+    files: ["./docker-compose.yml"]
+  register: output
+
+- name: debug
+  debug:
+    var: output

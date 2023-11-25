@@ -1,0 +1,5 @@
+- name: Старт приложения
+  gather_facts: true
+  hosts: all
+  roles:
+    - test
