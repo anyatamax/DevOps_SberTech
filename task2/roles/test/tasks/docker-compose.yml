@@ -1,8 +1,8 @@
 services:
   web:
     build:
-      context: ~/tmp/repo
-      dockerfile: my_app/Dockerfile
+      context: ~/tmp/repo/my_app
+      dockerfile: Dockerfile
     ports:
       - "8000:8000"
       - "22:22"
