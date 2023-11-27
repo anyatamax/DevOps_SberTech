@@ -1,8 +1,3 @@
-# - name: Create docker
-#   pip:
-#     name: "docker<5"
-#   become: yes
-
 - name: Run Python script with virtual environment
   shell: pip install --upgrade docker
 
@@ -27,21 +22,8 @@
     update: yes
     force: yes
 
-# - name: Run Python script with virtual environment
-#   shell: ls ~/tmp/repo/my_app
-
-# - name: Copy app
-#   copy: 
-#     src: ~/tmp/repo/my_app
-#     dest: ~/
-#   become: yes
-
 - name: Run Python app
   community.docker.docker_compose:
     project_src: ~/roles/test/tasks
     files: ["./docker-compose.yml"]
   register: output
-
-- name: debug
-  debug:
-    var: output
