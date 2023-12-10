@@ -7,4 +7,4 @@ WORKDIR /my_app
 RUN pip3 install flask
 EXPOSE 8000
 ENTRYPOINT ["python3"]
-CMD ["app.py"]
+CMD ["test.py"]
