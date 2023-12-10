@@ -1,0 +1,23 @@
+Started by user [8mha:////4DXzqb/P0g4+3IeEV1FfumtMLlRmcFFdUMiwkSEQeauUAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/test_app
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/test_app/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/anyatamax/DevOps_SberTech.git # timeout=10
+Fetching upstream changes from https://github.com/anyatamax/DevOps_SberTech.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+ > git fetch --tags --force --progress -- https://github.com/anyatamax/DevOps_SberTech.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/lab4^{commit} # timeout=10
+Checking out Revision 2ee3a613ff0023c450d572512dda0d383b7527a3 (refs/remotes/origin/lab4)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2ee3a613ff0023c450d572512dda0d383b7527a3 # timeout=10
+Commit message: "fix"
+ > git rev-list --no-walk 2ee3a613ff0023c450d572512dda0d383b7527a3 # timeout=10
+[test_app] $ /bin/sh -xe /tmp/jenkins10299255880440574382.sh
++ python my_app/app.py build
+/tmp/jenkins10299255880440574382.sh: 2: python: not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
