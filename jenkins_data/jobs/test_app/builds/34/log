@@ -1,0 +1,98 @@
+Started by user [8mha:////4DXzqb/P0g4+3IeEV1FfumtMLlRmcFFdUMiwkSEQeauUAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/test_app
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/test_app/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/anyatamax/DevOps_SberTech.git # timeout=10
+Fetching upstream changes from https://github.com/anyatamax/DevOps_SberTech.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+ > git fetch --tags --force --progress -- https://github.com/anyatamax/DevOps_SberTech.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/lab4^{commit} # timeout=10
+Checking out Revision bb6ed8cafb618fce34aa6cbce92fce10f2279d80 (refs/remotes/origin/lab4)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f bb6ed8cafb618fce34aa6cbce92fce10f2279d80 # timeout=10
+Commit message: "add readme"
+ > git rev-list --no-walk bb6ed8cafb618fce34aa6cbce92fce10f2279d80 # timeout=10
+[test_app] $ /bin/sh -xe /tmp/jenkins11548056156323509303.sh
++ cd my_app
++ docker build -t app .
+#1 [internal] load build definition from Dockerfile
+#1 sha256:0ff51be9b9770647b593adb24fc3ed7f9872faee5ec3416e685482c8e0bd5fa7
+#1 transferring dockerfile: 32B 0.0s done
+#1 DONE 0.0s
+
+#2 [internal] load .dockerignore
+#2 sha256:e4fcba7d62a0addbe5e3d4353dc38f98873655bfe96cfe15c8ab4ed35c37fc7e
+#2 transferring context: 2B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/ubuntu:latest
+#3 sha256:abd44fdc5704a1f31ce24272a9c459712f2a16d9c7c7ce9bcc7a9b6c11e01aa9
+#3 DONE 1.6s
+
+#4 [1/7] FROM docker.io/library/ubuntu:latest@sha256:8eab65df33a6de2844c9aefd19efe8ddb87b7df5e9185a4ab73af936225685bb
+#4 sha256:efc1c99f68cfc984c2980ee7719f93ec52e69a0cf3df478652e710c2c47b3756
+#4 DONE 0.0s
+
+#8 [internal] load build context
+#8 sha256:e9932439b23dec45dcde2c5fdb3afb8a7356d0aa3d994432634f891ea17fe322
+#8 transferring context: 31.08kB 0.1s done
+#8 DONE 0.1s
+
+#5 [2/7] RUN apt-get update -y
+#5 sha256:87cad86a8f4e445f4c90d95cd8ab3b45c70206c440abc2263f4e4597f75b82d4
+#5 CACHED
+
+#6 [3/7] RUN apt-get install -y python3-pip python3-dev build-essential
+#6 sha256:7e9ee34b265df92bf734bb6146aa29581d0a0d41ae71eb7c40243f80493714d3
+#6 CACHED
+
+#7 [4/7] RUN pip3 install pytest allure-pytest
+#7 sha256:cc8ece1958c50ac864c2cbe6199d651d610faab064bcc5fb1687cfddf588efc0
+#7 CACHED
+
+#9 [5/7] COPY . /my_app
+#9 sha256:7f166d14b66a8091a1012c5ceea89d916275510c1abd472922d618b34aa8d307
+#9 DONE 0.0s
+
+#10 [6/7] WORKDIR /my_app
+#10 sha256:ff0f493da75d4e480cc270413eb76d9ee6ca60cf6130f930e418d117d82825e5
+#10 DONE 0.0s
+
+#11 [7/7] RUN python3 app.py && pytest -v test_main.py --alluredir=reports/
+#11 sha256:e1ae6eee6c654c89f1bb3bb6de58c58fc1771c0e792fd36152e6e5761e3417a3
+#11 0.187 Hello 2024
+#11 0.311 ============================= test session starts ==============================
+#11 0.311 platform linux -- Python 3.10.12, pytest-7.4.3, pluggy-1.3.0 -- /usr/bin/python3
+#11 0.311 cachedir: .pytest_cache
+#11 0.311 rootdir: /my_app
+#11 0.311 plugins: allure-pytest-2.13.2
+#11 0.311 collecting ... collected 2 items
+#11 0.313 
+#11 0.313 test_main.py::TestMain::test_add PASSED                                  [ 50%]
+#11 0.314 test_main.py::TestMain::test_subtract PASSED                             [100%]
+#11 0.317 
+#11 0.317 ============================== 2 passed in 0.01s ===============================
+#11 DONE 0.3s
+
+#12 exporting to image
+#12 sha256:e8c613e07b0b7ff33893b694f7759a10d42e180f2b4dc349fb57dc6b71dcab00
+#12 exporting layers 0.0s done
+#12 writing image sha256:bfa02d3b3c7cdc3639c8840e3b7260c9b75adac8f3f94e132dea5c3af196fd4f
+#12 writing image sha256:bfa02d3b3c7cdc3639c8840e3b7260c9b75adac8f3f94e132dea5c3af196fd4f done
+#12 naming to docker.io/library/app done
+#12 DONE 0.0s
+[test_app] $ /bin/sh -xe /tmp/jenkins9231347671175752821.sh
++ docker run --name jenkins_app app
+docker: Error response from daemon: Conflict. The container name "/jenkins_app" is already in use by container "043b60940a44fb317c4d3679323a03f9ed7888bfcd7bef4cf55d83f108356873". You have to remove (or rename) that container to be able to reuse that name.
+See 'docker run --help'.
+Build step 'Execute shell' marked build as failure
+[test_app] $ /var/jenkins_home/tools/ru.yandex.qatools.allure.jenkins.tools.AllureCommandlineInstallation/allure/bin/allure generate /var/jenkins_home/workspace/test_app/MY_APP/REPORTS -c -o /var/jenkins_home/workspace/test_app/allure-report
+Report successfully generated to /var/jenkins_home/workspace/test_app/allure-report
+Allure report was successfully generated.
+Creating artifact for the build.
+Artifact was added to the build.
+Finished: FAILURE

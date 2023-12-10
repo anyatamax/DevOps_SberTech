@@ -1,0 +1,162 @@
+Started by user [8mha:////4DXzqb/P0g4+3IeEV1FfumtMLlRmcFFdUMiwkSEQeauUAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/test_app
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/test_app/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/anyatamax/DevOps_SberTech.git # timeout=10
+Fetching upstream changes from https://github.com/anyatamax/DevOps_SberTech.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+ > git fetch --tags --force --progress -- https://github.com/anyatamax/DevOps_SberTech.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/lab4^{commit} # timeout=10
+Checking out Revision bb6ed8cafb618fce34aa6cbce92fce10f2279d80 (refs/remotes/origin/lab4)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f bb6ed8cafb618fce34aa6cbce92fce10f2279d80 # timeout=10
+Commit message: "add readme"
+ > git rev-list --no-walk fd8d2595dacb29c7e4704ee2a2764bf009ad07fa # timeout=10
+[test_app] $ /bin/sh -xe /tmp/jenkins631061875278851643.sh
++ cd my_app
++ docker build -t app .
+#1 [internal] load build definition from Dockerfile
+#1 sha256:69bfb0c8659952bbc51278819d24f5706fa0626aba996c06ca57965f0e466553
+#1 transferring dockerfile: 278B 0.0s done
+#1 DONE 0.0s
+
+#2 [internal] load .dockerignore
+#2 sha256:c7092ecd7713323fd7b87716b19b0d9d76012457761c52962290cf7a09351b7a
+#2 transferring context: 2B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/ubuntu:latest
+#3 sha256:abd44fdc5704a1f31ce24272a9c459712f2a16d9c7c7ce9bcc7a9b6c11e01aa9
+#3 DONE 1.3s
+
+#4 [1/7] FROM docker.io/library/ubuntu:latest@sha256:8eab65df33a6de2844c9aefd19efe8ddb87b7df5e9185a4ab73af936225685bb
+#4 sha256:efc1c99f68cfc984c2980ee7719f93ec52e69a0cf3df478652e710c2c47b3756
+#4 DONE 0.0s
+
+#8 [internal] load build context
+#8 sha256:8c7bd0498adb20b6c3fa6b73876339a23c171c5f9d6dc0acd8baa5904e203587
+#8 transferring context: 26.40kB 0.1s done
+#8 DONE 0.1s
+
+#5 [2/7] RUN apt-get update -y
+#5 sha256:87cad86a8f4e445f4c90d95cd8ab3b45c70206c440abc2263f4e4597f75b82d4
+#5 CACHED
+
+#6 [3/7] RUN apt-get install -y python3-pip python3-dev build-essential
+#6 sha256:7e9ee34b265df92bf734bb6146aa29581d0a0d41ae71eb7c40243f80493714d3
+#6 CACHED
+
+#7 [4/7] RUN pip3 install pytest allure-pytest
+#7 sha256:cc8ece1958c50ac864c2cbe6199d651d610faab064bcc5fb1687cfddf588efc0
+#7 CACHED
+
+#9 [5/7] COPY . /my_app
+#9 sha256:0d2683c6002885ba6df83cd95aff474ff6cd691f9570892e393b7721adc0bb1b
+#9 DONE 0.0s
+
+#10 [6/7] WORKDIR /my_app
+#10 sha256:59db129a256dbfa289ee2148aaf50fd7f316c482bb4f6b5b7edae8e6f3258dc2
+#10 DONE 0.0s
+
+#11 [7/7] RUN python3 app.py && pytest -v test_main.py --alluredir=reports/
+#11 sha256:e38b712cab698542378b583d22bddc1da0a375b0f4166c14aad0f0c2e86906c8
+#11 0.188 Hello 2024
+#11 0.299 ============================= test session starts ==============================
+#11 0.299 platform linux -- Python 3.10.12, pytest-7.4.3, pluggy-1.3.0 -- /usr/bin/python3
+#11 0.299 cachedir: .pytest_cache
+#11 0.299 rootdir: /my_app
+#11 0.299 plugins: allure-pytest-2.13.2
+#11 0.299 collecting ... collected 2 items
+#11 0.301 
+#11 0.301 test_main.py::TestMain::test_add PASSED                                  [ 50%]
+#11 0.302 test_main.py::TestMain::test_subtract PASSED                             [100%]
+#11 0.304 
+#11 0.304 ============================== 2 passed in 0.01s ===============================
+#11 DONE 0.3s
+
+#12 exporting to image
+#12 sha256:e8c613e07b0b7ff33893b694f7759a10d42e180f2b4dc349fb57dc6b71dcab00
+#12 exporting layers 0.0s done
+#12 writing image sha256:8b95bb5a2d3b8dc8e0ac3e5f98bc4d8bc27bfdf17ff3fb84e47cd24a1b25d172 done
+#12 naming to docker.io/library/app done
+#12 DONE 0.0s
+[test_app] $ /bin/sh -xe /tmp/jenkins2345079705213344379.sh
++ docker run --name jenkins_app app
+[test_app] $ /bin/sh -xe /tmp/jenkins10062241783627131437.sh
++ docker cp jenkins_app:/my_app/reports my_app/reports/
+[test_app] $ /var/jenkins_home/tools/hudson.plugins.sonar.SonarRunnerInstallation/SonarQube_5/bin/sonar-scanner "requires SonarQube Scanner 2.1+" -X -Dsonar.host.url=http://localhost:9000 ******** -Dsonar.language=python -Dsonar.projectBaseDir=/var/lib/jenkins/workspace/my_app -Dsonar.host.url=https://da32-188-244-13-153.ngrok-free.app -Dsonar.projectVersion=1.0 -Dsonar.sources=. -Dsonar.analysis.mode=publish -Dsonar.verbose=true
+15:24:07.454 WARN: Property 'sonar.host.url' with value 'http://localhost:9000' is overridden with value 'https://da32-188-244-13-153.ngrok-free.app'
+15:24:07.460 WARN: Property 'sonar.verbose' with value 'true' is overridden with value 'true'
+15:24:07.466 INFO: Scanner configuration file: /var/jenkins_home/tools/hudson.plugins.sonar.SonarRunnerInstallation/SonarQube_5/conf/sonar-scanner.properties
+15:24:07.470 INFO: Project root configuration file: NONE
+15:24:07.500 INFO: SonarScanner 5.0.1.3006
+15:24:07.500 INFO: Java 17.0.9 Eclipse Adoptium (64-bit)
+15:24:07.500 INFO: Linux 5.15.49-linuxkit aarch64
+15:24:07.630 DEBUG: keyStore is : 
+15:24:07.630 DEBUG: keyStore type is : pkcs12
+15:24:07.631 DEBUG: keyStore provider is : 
+15:24:07.631 DEBUG: init keystore
+15:24:07.631 DEBUG: init keymanager of type SunX509
+15:24:07.717 DEBUG: Create: /root/.sonar/cache
+15:24:07.717 INFO: User cache: /root/.sonar/cache
+15:24:07.717 DEBUG: Create: /root/.sonar/cache/_tmp
+15:24:07.721 DEBUG: Extract sonar-scanner-api-batch in temp...
+15:24:07.724 DEBUG: Get bootstrap index...
+15:24:07.724 DEBUG: Download: https://da32-188-244-13-153.ngrok-free.app/batch/index
+15:24:08.141 DEBUG: Get bootstrap completed
+15:24:08.144 DEBUG: Create isolated classloader...
+15:24:08.152 DEBUG: Start temp cleaning...
+15:24:08.155 DEBUG: Temp cleaning done
+15:24:08.155 DEBUG: Execution getVersion
+15:24:08.165 INFO: Analyzing on SonarQube server 10.3.0.82913
+15:24:08.166 DEBUG: Execution execute
+15:24:08.354 DEBUG: Community 10.3.0.82913
+15:24:08.499 INFO: Load global settings
+15:24:08.815 DEBUG: GET 200 https://da32-188-244-13-153.ngrok-free.app/api/settings/values.protobuf | time=316ms
+15:24:08.837 INFO: Load global settings (done) | time=337ms
+15:24:08.837 INFO: Server id: 147B411E-AYxUQBapzNpIsTSa5Xhz
+15:24:08.841 INFO: User cache: /root/.sonar/cache
+15:24:08.844 INFO: Load/download plugins
+15:24:08.844 INFO: Load plugins index
+15:24:08.997 DEBUG: GET 200 https://da32-188-244-13-153.ngrok-free.app/api/plugins/installed | time=153ms
+15:24:09.025 INFO: Load plugins index (done) | time=181ms
+15:24:09.094 INFO: Load/download plugins (done) | time=250ms
+15:24:09.129 DEBUG: Plugins:
+15:24:09.129 DEBUG:   * Python Code Quality and Security 4.10.0.13725 (python)
+15:24:09.129 DEBUG:   * Clean as You Code 2.2.2.656 (cayc)
+15:24:09.129 DEBUG:   * Go Code Quality and Security 1.15.0.4655 (go)
+15:24:09.129 DEBUG:   * JaCoCo 1.3.0.1538 (jacoco)
+15:24:09.129 DEBUG:   * Kotlin Code Quality and Security 2.18.0.2938 (kotlin)
+15:24:09.129 DEBUG:   * IaC Code Quality and Security 1.22.0.7057 (iac)
+15:24:09.129 DEBUG:   * JavaScript/TypeScript/CSS Code Quality and Security 10.9.0.24449 (javascript)
+15:24:09.129 DEBUG:   * Ruby Code Quality and Security 1.15.0.4655 (ruby)
+15:24:09.129 DEBUG:   * Scala Code Quality and Security 1.15.0.4655 (sonarscala)
+15:24:09.129 DEBUG:   * C# Code Quality and Security 9.13.0.79967 (csharp)
+15:24:09.129 DEBUG:   * Java Code Quality and Security 7.27.1.33504 (java)
+15:24:09.129 DEBUG:   * HTML Code Quality and Security 3.11.0.4708 (web)
+15:24:09.129 DEBUG:   * Flex Code Quality and Security 2.12.0.4568 (flex)
+15:24:09.130 DEBUG:   * XML Code Quality and Security 2.10.0.4108 (xml)
+15:24:09.130 DEBUG:   * PHP Code Quality and Security 3.33.0.11274 (php)
+15:24:09.130 DEBUG:   * Text Code Quality and Security 2.7.1.1388 (text)
+15:24:09.130 DEBUG:   * VB.NET Code Quality and Security 9.13.0.79967 (vbnet)
+15:24:09.130 DEBUG:   * Configuration detection for Code Quality and Security 1.3.0.654 (config)
+15:24:09.164 INFO: ------------------------------------------------------------------------
+15:24:09.164 INFO: EXECUTION FAILURE
+15:24:09.164 INFO: ------------------------------------------------------------------------
+15:24:09.165 INFO: Total time: 1.700s
+15:24:09.182 INFO: Final Memory: 7M/27M
+15:24:09.183 INFO: ------------------------------------------------------------------------
+15:24:09.184 ERROR: Error during SonarScanner execution
+Tasks support was removed in SonarQube 7.6.
+WARN: Unable to locate 'report-task.txt' in the workspace. Did the SonarScanner succeed?
+ERROR: SonarQube scanner exited with non-zero code: 2
+[test_app] $ /var/jenkins_home/tools/ru.yandex.qatools.allure.jenkins.tools.AllureCommandlineInstallation/allure/bin/allure generate /var/jenkins_home/workspace/test_app/MY_APP/REPORTS -c -o /var/jenkins_home/workspace/test_app/allure-report
+Report successfully generated to /var/jenkins_home/workspace/test_app/allure-report
+Allure report was successfully generated.
+Creating artifact for the build.
+Artifact was added to the build.
+Finished: FAILURE
