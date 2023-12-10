@@ -1,0 +1,79 @@
+Started by user [8mha:////4DXzqb/P0g4+3IeEV1FfumtMLlRmcFFdUMiwkSEQeauUAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/test_app
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/test_app/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/anyatamax/DevOps_SberTech.git # timeout=10
+Fetching upstream changes from https://github.com/anyatamax/DevOps_SberTech.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+ > git fetch --tags --force --progress -- https://github.com/anyatamax/DevOps_SberTech.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/lab4^{commit} # timeout=10
+Checking out Revision f61776d26cbf49b44373dd8e5c8b0be54bb3f36a (refs/remotes/origin/lab4)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f61776d26cbf49b44373dd8e5c8b0be54bb3f36a # timeout=10
+Commit message: "fix"
+ > git rev-list --no-walk aea970a21c9fce8d4d8bb5b1f0ce0796e055aa13 # timeout=10
+[test_app] $ /bin/sh -xe /tmp/jenkins14118747911882720587.sh
++ cd my_app
++ docker build --tag app .
+#1 [internal] load build definition from Dockerfile
+#1 sha256:74063a407f3465ae201c6e55c247b9c3ce5da34cd13643aa9c4e642d5a3b62e8
+#1 transferring dockerfile: 226B 0.0s done
+#1 DONE 0.0s
+
+#2 [internal] load .dockerignore
+#2 sha256:eb769de9db10fef1d8ed3e6cefe03e24614118a2d221e55ec778af7855c0031c
+#2 transferring context: 2B 0.0s done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/ubuntu:latest
+#3 sha256:abd44fdc5704a1f31ce24272a9c459712f2a16d9c7c7ce9bcc7a9b6c11e01aa9
+#3 DONE 0.0s
+
+#4 [1/6] FROM docker.io/library/ubuntu:latest
+#4 sha256:e3acda44078840c3a173601a2f7b12df90a695c0e0cb70fa6522ed9754926fe6
+#4 DONE 0.0s
+
+#7 [internal] load build context
+#7 sha256:341f9f269cb9f3dfa11d86d5acd2f0ff731a6721ca610b9e69415a8945d42d61
+#7 transferring context: 964B 0.0s done
+#7 DONE 0.0s
+
+#5 [2/6] RUN apt-get update -y
+#5 sha256:80604d0c076ddc615fbd3cfe6a68b7f728e1233552fa0a349c42357dfa188702
+#5 CACHED
+
+#6 [3/6] RUN apt-get install -y python3-pip python3-dev build-essential
+#6 sha256:00b83309ed95cf0b1e4dd09553aef73119b1a5b1d527e8eb1ad219681654323e
+#6 CACHED
+
+#8 [4/6] COPY . /my_app
+#8 sha256:469bafc63dbf91aea8e82b3b21ab8d9d3a71c76e190a8a6a03b3c2d6a43369e6
+#8 DONE 0.0s
+
+#9 [5/6] WORKDIR /my_app
+#9 sha256:44b18b30292abf5a8e949f197f64f81de37c436bb4f0a4456382303c9df27b65
+#9 DONE 0.0s
+
+#10 [6/6] RUN python3 app.py && python3 -m unittest test_main
+#10 sha256:fcc8a9e3133f8310cd7847314496a037c726c9d46dabcd1b6dd986c0e57646cf
+#10 0.209 Hello 2024
+#10 0.253 ..
+#10 0.253 ----------------------------------------------------------------------
+#10 0.253 Ran 2 tests in 0.000s
+#10 0.253 
+#10 0.253 OK
+#10 DONE 0.3s
+
+#11 exporting to image
+#11 sha256:e8c613e07b0b7ff33893b694f7759a10d42e180f2b4dc349fb57dc6b71dcab00
+#11 exporting layers 0.0s done
+#11 writing image sha256:53188af20370dcd9f080562968a7f642737fef8df6b0a61b21ed7891aa00d0b1 done
+#11 naming to docker.io/library/app done
+#11 DONE 0.1s
+[test_app] $ /bin/sh -xe /tmp/jenkins2834179280477703182.sh
++ docker run app
+Finished: SUCCESS

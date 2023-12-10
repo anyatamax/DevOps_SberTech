@@ -1,0 +1,54 @@
+commit f61776d26cbf49b44373dd8e5c8b0be54bb3f36a
+tree 93f6cabc792584e4c25ab7c16c25d4f6051bfe4c
+parent f746b58e816b0cb7161c44ed89e4656999c1dd35
+author Any <maksimova.am@phystech.edu> 2023-12-10 14:38:19 +0300
+committer Any <maksimova.am@phystech.edu> 2023-12-10 14:38:19 +0300
+
+    fix
+
+
+:100644 100644 38ee466bb47f352d3b50680e8099efdb11b8bb1e 2097f9d818016a3cc9c9cda648f8be9dd902fda7 M	my_app/test_main.py
+commit f746b58e816b0cb7161c44ed89e4656999c1dd35
+tree 0f56ea73a746ed1372b72c7123f7a5244f7e80dd
+parent bcdb0c837403114563bd379cace8daa972ce9d18
+author Any <maksimova.am@phystech.edu> 2023-12-10 14:35:45 +0300
+committer Any <maksimova.am@phystech.edu> 2023-12-10 14:35:45 +0300
+
+    fix
+
+
+:100644 100644 9703cac940c0149b00d7b76156a69be7c385d5da 6da9622e25ac3a609e6b5ef5d9873931e4408609 M	jenkins_data/config.xml
+:000000 100644 0000000000000000000000000000000000000000 ec9607c5ebbd4c4b8bb434406c87d0e191b6b7da A	jenkins_data/jenkins.plugins.git.GitHooksConfiguration.xml
+:000000 100644 0000000000000000000000000000000000000000 efdab316a73e9afdc03f53b57008acd5a8ad6363 A	jenkins_data/jenkins.security.QueueItemAuthenticatorConfiguration.xml
+:000000 100644 0000000000000000000000000000000000000000 f75de26f28dd8bf1870fabb13d028a4f9f235b96 A	jenkins_data/jenkins.security.UpdateSiteWarningsConfiguration.xml
+:000000 100644 0000000000000000000000000000000000000000 53d589cb639270a327b5c63bebca6049c9bb23c4 A	jenkins_data/jenkins.security.apitoken.ApiTokenPropertyConfiguration.xml
+:000000 100644 0000000000000000000000000000000000000000 3908ac83e3c2947e53ef5679a2e78f9abed76267 A	jenkins_data/org.jenkinsci.plugins.gitclient.GitHostKeyVerificationConfiguration.xml
+:100644 100644 2097f9d818016a3cc9c9cda648f8be9dd902fda7 38ee466bb47f352d3b50680e8099efdb11b8bb1e M	my_app/test_main.py
+commit bcdb0c837403114563bd379cace8daa972ce9d18
+tree 14b82e639b72da32af16e9d752b5dbc41ec18309
+parent fd63ef5242d4a9787b624331fd226cd7a290113a
+author Any <maksimova.am@phystech.edu> 2023-12-10 14:29:08 +0300
+committer Any <maksimova.am@phystech.edu> 2023-12-10 14:29:08 +0300
+
+    fix
+
+
+:100644 100644 e1fa834a7b9d1bcf953ce2d47a867e0dadd6adfb efba19e4e366c0a257bdd28679d14ac3fa1772ad M	jenkins_data/queue.xml
+:100644 100644 38ee466bb47f352d3b50680e8099efdb11b8bb1e 2097f9d818016a3cc9c9cda648f8be9dd902fda7 M	my_app/test_main.py
+commit fd63ef5242d4a9787b624331fd226cd7a290113a
+tree 79c02986912c3582c21ba3a96f2d7be03920a3b0
+parent aea970a21c9fce8d4d8bb5b1f0ce0796e055aa13
+author Any <maksimova.am@phystech.edu> 2023-12-10 14:25:43 +0300
+committer Any <maksimova.am@phystech.edu> 2023-12-10 14:25:43 +0300
+
+    fix
+
+
+:000000 100644 0000000000000000000000000000000000000000 818f6c48c3a06739522f89528608a3af584a2837 A	jenkins_data/.config/jgit/config
+:000000 100644 0000000000000000000000000000000000000000 a98e9326c67556a21a2c5127007ec60bf8b5f210 A	jenkins_data/jobs/test_app/builds/12/build.xml
+:000000 100644 0000000000000000000000000000000000000000 2a015db52f699c8e142a3b0a4fa677ec020b7d7a A	jenkins_data/jobs/test_app/builds/12/changelog.xml
+:000000 100644 0000000000000000000000000000000000000000 2ad46d0d201e60b52f1baf7f96890203a324af74 A	jenkins_data/jobs/test_app/builds/12/log
+:100644 100644 9ab59df1e18b6ecfad4b5015bb6374d883907a45 6101acc16224af9d6796e37357f427f74bcfa6bc M	jenkins_data/jobs/test_app/builds/permalinks
+:100644 100644 48082f72f087ce7e6fa75b9c41d7387daecd447b b1bd38b62a0800a4f6a80c34e21c5acffae52c7e M	jenkins_data/jobs/test_app/nextBuildNumber
+:160000 160000 eb2514c3d654ce7ea797fbdf7d404858b3ef625c aea970a21c9fce8d4d8bb5b1f0ce0796e055aa13 M	jenkins_data/workspace/test_app
+:100644 100644 05f581ea0e59fc4ae816e8c73e209d2baad4c339 3fcd9af6528026ee88c229712ba95acc4fd08ec5 M	my_app/app.py
