@@ -1,0 +1,98 @@
+Started by user [8mha:////4DXzqb/P0g4+3IeEV1FfumtMLlRmcFFdUMiwkSEQeauUAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/test_app
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/test_app/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/anyatamax/DevOps_SberTech.git # timeout=10
+Fetching upstream changes from https://github.com/anyatamax/DevOps_SberTech.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+ > git fetch --tags --force --progress -- https://github.com/anyatamax/DevOps_SberTech.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/lab4^{commit} # timeout=10
+Checking out Revision fd8d2595dacb29c7e4704ee2a2764bf009ad07fa (refs/remotes/origin/lab4)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fd8d2595dacb29c7e4704ee2a2764bf009ad07fa # timeout=10
+Commit message: "add tests"
+ > git rev-list --no-walk fd8d2595dacb29c7e4704ee2a2764bf009ad07fa # timeout=10
+[test_app] $ /bin/sh -xe /tmp/jenkins17215897643235847211.sh
++ cd my_app
++ docker build -t app .
+#1 [internal] load build definition from Dockerfile
+#1 sha256:95d9ae45262b54c4f2c1506564f10b9928ca929b5c23739a37c8ff15d37524d7
+#1 transferring dockerfile: 32B done
+#1 DONE 0.0s
+
+#2 [internal] load .dockerignore
+#2 sha256:0178f330024e45a8d54f4d8eaa571445de66584f3394f96d7346046df0896819
+#2 transferring context: 2B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/ubuntu:latest
+#3 sha256:abd44fdc5704a1f31ce24272a9c459712f2a16d9c7c7ce9bcc7a9b6c11e01aa9
+#3 DONE 0.7s
+
+#4 [1/7] FROM docker.io/library/ubuntu:latest@sha256:8eab65df33a6de2844c9aefd19efe8ddb87b7df5e9185a4ab73af936225685bb
+#4 sha256:efc1c99f68cfc984c2980ee7719f93ec52e69a0cf3df478652e710c2c47b3756
+#4 DONE 0.0s
+
+#8 [internal] load build context
+#8 sha256:e5c0b2f8fda97c555dababec2ae90ad78bdd84d95aaf5171bc2aed3f625f6c9e
+#8 transferring context: 155B done
+#8 DONE 0.0s
+
+#5 [2/7] RUN apt-get update -y
+#5 sha256:87cad86a8f4e445f4c90d95cd8ab3b45c70206c440abc2263f4e4597f75b82d4
+#5 CACHED
+
+#7 [4/7] RUN pip3 install pytest allure-pytest
+#7 sha256:cc8ece1958c50ac864c2cbe6199d651d610faab064bcc5fb1687cfddf588efc0
+#7 CACHED
+
+#10 [6/7] WORKDIR /my_app
+#10 sha256:68f8783973b3eb0bdfb3102a8a5a457fbc7ec1f5750be12e07f7d575aa552185
+#10 CACHED
+
+#6 [3/7] RUN apt-get install -y python3-pip python3-dev build-essential
+#6 sha256:7e9ee34b265df92bf734bb6146aa29581d0a0d41ae71eb7c40243f80493714d3
+#6 CACHED
+
+#9 [5/7] COPY . /my_app
+#9 sha256:ae1736fe1342b8f39c89829529fb4ffcf0ad810d54e52fcad200c77286f00eb0
+#9 CACHED
+
+#11 [7/7] RUN python3 app.py && pytest -v test_main.py --alluredir=reports/
+#11 sha256:5e1e41b8b92730a9b706c7f512cc52eec24f4f3fd2e6a92cf4c83c3021f47dce
+#11 CACHED
+
+#12 exporting to image
+#12 sha256:e8c613e07b0b7ff33893b694f7759a10d42e180f2b4dc349fb57dc6b71dcab00
+#12 exporting layers done
+#12 writing image sha256:58d9b67f26c6eeaf3e3a2a419a756e5d289465349fe5c528c9ba4d84076cb07a done
+#12 naming to docker.io/library/app done
+#12 DONE 0.0s
+[test_app] $ /bin/sh -xe /tmp/jenkins12154561973772394593.sh
++ docker run app
+[test_app] $ /bin/sh -xe /tmp/jenkins11243449955070858925.sh
++ docker ps -a
+CONTAINER ID   IMAGE                                                                                         COMMAND                  CREATED          STATUS                              PORTS                                              NAMES
+b6f94d850a38   app                                                                                           "/bin/bash"              1 second ago     Exited (0) Less than a second ago                                                      vigilant_taussig
+611e31e580dd   app                                                                                           "/bin/bash"              3 minutes ago    Exited (0) 3 minutes ago                                                               busy_austin
+be360b97bb77   app                                                                                           "/bin/bash"              4 minutes ago    Exited (0) 4 minutes ago                                                               elated_mayer
+c58d424e25ac   dbbb45a0c837                                                                                  "/bin/bash"              9 minutes ago    Exited (0) 9 minutes ago                                                               hopeful_wilson
+902279624a5d   sonarqube:latest                                                                              "/opt/sonarqube/dock…"   14 minutes ago   Up 14 minutes                       0.0.0.0:9000->9000/tcp                             sonarqube
+e0760a8566d8   devops_sbertech-jenkins                                                                       "/usr/bin/tini -- /u…"   3 hours ago      Up 25 minutes                       0.0.0.0:8080->8080/tcp, 0.0.0.0:50000->50000/tcp   jenkins
+219d45602209   root_web                                                                                      "python3 app.py"         12 days ago      Exited (255) 12 hours ago           0.0.0.0:22->22/tcp, 0.0.0.0:8000->8000/tcp         root_web_1
+d86144007b01   debian-ssh                                                                                    "/bin/sh -c 'service…"   12 days ago      Exited (255) 12 hours ago           0.0.0.0:2200->22/tcp, 0.0.0.0:8002->8000/tcp       debian-ssh
+16261a3fd358   vsc-metaprogramming-course-c96ce00597ffe14dbcc90d58e5a7d940b2aaaca2401165b45d5c225026b33808   "/bin/sh -c 'echo Co…"   4 weeks ago      Exited (255) 2 weeks ago                                                               exciting_swartz
+d8c96f56dbcf   anyamax/test_app_docker:test_app_docker                                                       "python3 app.py"         8 weeks ago      Exited (255) 8 weeks ago            0.0.0.0:8000->8000/tcp                             my_app
+f55559b951d2   postgres                                                                                      "docker-entrypoint.s…"   6 months ago     Exited (0) 6 months ago                                                                postgres
+e4efd5690914   redis                                                                                         "docker-entrypoint.s…"   7 months ago     Exited (0) 7 months ago                                                                some-redis
+[test_app] $ /var/jenkins_home/tools/ru.yandex.qatools.allure.jenkins.tools.AllureCommandlineInstallation/allure/bin/allure generate -c -o /var/jenkins_home/workspace/test_app/allure-report
+allure-results does not exist
+Report successfully generated to /var/jenkins_home/workspace/test_app/allure-report
+Allure report was successfully generated.
+Creating artifact for the build.
+Artifact was added to the build.
+Finished: SUCCESS

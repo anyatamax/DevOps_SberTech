@@ -1,0 +1,179 @@
+Started by user [8mha:////4DXzqb/P0g4+3IeEV1FfumtMLlRmcFFdUMiwkSEQeauUAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/test_app
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/test_app/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/anyatamax/DevOps_SberTech.git # timeout=10
+Fetching upstream changes from https://github.com/anyatamax/DevOps_SberTech.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+ > git fetch --tags --force --progress -- https://github.com/anyatamax/DevOps_SberTech.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/lab4^{commit} # timeout=10
+Checking out Revision fd8d2595dacb29c7e4704ee2a2764bf009ad07fa (refs/remotes/origin/lab4)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fd8d2595dacb29c7e4704ee2a2764bf009ad07fa # timeout=10
+Commit message: "add tests"
+ > git rev-list --no-walk fd8d2595dacb29c7e4704ee2a2764bf009ad07fa # timeout=10
+[test_app] $ /bin/sh -xe /tmp/jenkins17879556574018206325.sh
++ cd my_app
++ docker build -t app .
+#1 [internal] load build definition from Dockerfile
+#1 sha256:32d17ae452ef26fd7b62d2c613ed5ca73eef6b0001ee473aa52a84122107b374
+#1 transferring dockerfile: 32B done
+#1 DONE 0.0s
+
+#2 [internal] load .dockerignore
+#2 sha256:aca41e2bba44fe0f23b580ce57ece6e00e46413169afa39bf38547ec0cf09ea3
+#2 transferring context: 2B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/ubuntu:latest
+#3 sha256:abd44fdc5704a1f31ce24272a9c459712f2a16d9c7c7ce9bcc7a9b6c11e01aa9
+#3 DONE 2.3s
+
+#4 [1/7] FROM docker.io/library/ubuntu:latest@sha256:8eab65df33a6de2844c9aefd19efe8ddb87b7df5e9185a4ab73af936225685bb
+#4 sha256:efc1c99f68cfc984c2980ee7719f93ec52e69a0cf3df478652e710c2c47b3756
+#4 DONE 0.0s
+
+#8 [internal] load build context
+#8 sha256:87c4b3f70e557fbfb00716766eac463eb8c40b40605994acc26497157be395b5
+#8 transferring context: 11.47kB 0.1s done
+#8 DONE 0.1s
+
+#5 [2/7] RUN apt-get update -y
+#5 sha256:87cad86a8f4e445f4c90d95cd8ab3b45c70206c440abc2263f4e4597f75b82d4
+#5 CACHED
+
+#6 [3/7] RUN apt-get install -y python3-pip python3-dev build-essential
+#6 sha256:7e9ee34b265df92bf734bb6146aa29581d0a0d41ae71eb7c40243f80493714d3
+#6 CACHED
+
+#7 [4/7] RUN pip3 install pytest allure-pytest
+#7 sha256:cc8ece1958c50ac864c2cbe6199d651d610faab064bcc5fb1687cfddf588efc0
+#7 CACHED
+
+#9 [5/7] COPY . /my_app
+#9 sha256:4c0fea390f1c62e99fb864a20c149bc0e0cc592dbfaf60b10899a11fc107791c
+#9 DONE 0.0s
+
+#10 [6/7] WORKDIR /my_app
+#10 sha256:b4abd7e3265d4dd60520044aa22385b7ffd254a56a1f5acf6db2689334e97966
+#10 DONE 0.0s
+
+#11 [7/7] RUN python3 app.py && pytest -v test_main.py --alluredir=reports/
+#11 sha256:8d5f82722d5c91c309ddeb37e9dabe3f1b7910a4026c44497aab984f7d26e8b6
+#11 0.188 Hello 2024
+#11 0.314 ============================= test session starts ==============================
+#11 0.314 platform linux -- Python 3.10.12, pytest-7.4.3, pluggy-1.3.0 -- /usr/bin/python3
+#11 0.314 cachedir: .pytest_cache
+#11 0.314 rootdir: /my_app
+#11 0.314 plugins: allure-pytest-2.13.2
+#11 0.314 collecting ... collected 2 items
+#11 0.317 
+#11 0.317 test_main.py::TestMain::test_add PASSED                                  [ 50%]
+#11 0.319 test_main.py::TestMain::test_subtract PASSED                             [100%]
+#11 0.321 
+#11 0.321 ============================== 2 passed in 0.01s ===============================
+#11 DONE 0.4s
+
+#12 exporting to image
+#12 sha256:e8c613e07b0b7ff33893b694f7759a10d42e180f2b4dc349fb57dc6b71dcab00
+#12 exporting layers 0.0s done
+#12 writing image sha256:d4a44bb513d41712a0ec9f92b13254f2050b50957c3f55080cd0e7ea9137cdc5 done
+#12 naming to docker.io/library/app done
+#12 DONE 0.0s
+[test_app] $ /bin/sh -xe /tmp/jenkins2803365191383991007.sh
++ docker run --name jenkins_app3 app
+[test_app] $ /bin/sh -xe /tmp/jenkins10755315974262731498.sh
++ docker cp jenkins_app3:/my_app/reports my_app/reports/
+[test_app] $ /bin/sh -xe /tmp/jenkins18044393177643094861.sh
++ docker run -d --name sonarqube --network=host -e SONAR_HOST_URL=http://127.0.0.1:9000 -e SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true -p 9000:9000 sonarqube:latest
+WARNING: Published ports are discarded when using host network mode
+ad15907ffab01f4665d0d90cd3cbe03bdb2e2896b883a26e1f7229f947539a3f
+[test_app] $ /var/jenkins_home/tools/hudson.plugins.sonar.SonarRunnerInstallation/SonarQube_5/bin/sonar-scanner "requires SonarQube Scanner 2.1+" -Dsonar.host.url=http://localhost:9000 ******** -Dsonar.language=python -Dsonar.projectBaseDir=/var/lib/jenkins/workspace/my_app -Dsonar.login=sqa_b21aaef29363014f443f9c5da34f717ee01983b0 -Dsonar.projectVersion=1.0 -Dsonar.sources=. -Dsonar.analysis.mode=publish -Dsonar.verbose=true
+WARN: Property 'sonar.login' with value 'sqa_b21aaef29363014f443f9c5da34f717ee01983b0' is overridden with value 'sqa_b21aaef29363014f443f9c5da34f717ee01983b0'
+INFO: Scanner configuration file: /var/jenkins_home/tools/hudson.plugins.sonar.SonarRunnerInstallation/SonarQube_5/conf/sonar-scanner.properties
+INFO: Project root configuration file: NONE
+14:55:57.253 INFO: SonarScanner 5.0.1.3006
+14:55:57.259 INFO: Java 17.0.9 Eclipse Adoptium (64-bit)
+14:55:57.259 INFO: Linux 5.15.49-linuxkit aarch64
+14:55:57.381 DEBUG: keyStore is : 
+14:55:57.382 DEBUG: keyStore type is : pkcs12
+14:55:57.382 DEBUG: keyStore provider is : 
+14:55:57.382 DEBUG: init keystore
+14:55:57.385 DEBUG: init keymanager of type SunX509
+14:55:57.506 DEBUG: Create: /root/.sonar/cache
+14:55:57.512 INFO: User cache: /root/.sonar/cache
+14:55:57.512 DEBUG: Create: /root/.sonar/cache/_tmp
+14:55:57.514 DEBUG: Extract sonar-scanner-api-batch in temp...
+14:55:57.518 DEBUG: Get bootstrap index...
+14:55:57.519 DEBUG: Download: http://localhost:9000/batch/index
+14:55:57.577 ERROR: SonarQube server [http://localhost:9000] can not be reached
+14:55:57.577 INFO: ------------------------------------------------------------------------
+14:55:57.577 INFO: EXECUTION FAILURE
+14:55:57.577 INFO: ------------------------------------------------------------------------
+14:55:57.577 INFO: Total time: 0.376s
+14:55:57.602 INFO: Final Memory: 4M/17M
+14:55:57.602 INFO: ------------------------------------------------------------------------
+14:55:57.602 ERROR: Error during SonarScanner execution
+org.sonarsource.scanner.api.internal.ScannerException: Unable to execute SonarScanner analysis
+	at org.sonarsource.scanner.api.internal.IsolatedLauncherFactory.lambda$createLauncher$0(IsolatedLauncherFactory.java:85)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:318)
+	at org.sonarsource.scanner.api.internal.IsolatedLauncherFactory.createLauncher(IsolatedLauncherFactory.java:74)
+	at org.sonarsource.scanner.api.internal.IsolatedLauncherFactory.createLauncher(IsolatedLauncherFactory.java:70)
+	at org.sonarsource.scanner.api.EmbeddedScanner.doStart(EmbeddedScanner.java:185)
+	at org.sonarsource.scanner.api.EmbeddedScanner.start(EmbeddedScanner.java:123)
+	at org.sonarsource.scanner.cli.Main.execute(Main.java:74)
+	at org.sonarsource.scanner.cli.Main.main(Main.java:62)
+Caused by: java.lang.IllegalStateException: Fail to get bootstrap index from server
+	at org.sonarsource.scanner.api.internal.BootstrapIndexDownloader.getIndex(BootstrapIndexDownloader.java:42)
+	at org.sonarsource.scanner.api.internal.JarDownloader.getScannerEngineFiles(JarDownloader.java:58)
+	at org.sonarsource.scanner.api.internal.JarDownloader.download(JarDownloader.java:53)
+	at org.sonarsource.scanner.api.internal.IsolatedLauncherFactory.lambda$createLauncher$0(IsolatedLauncherFactory.java:76)
+	... 7 more
+Caused by: java.net.ConnectException: Failed to connect to localhost/127.0.0.1:9000
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.connection.RealConnection.connectSocket(RealConnection.java:265)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.connection.RealConnection.connect(RealConnection.java:183)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.java:224)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.java:108)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.connection.ExchangeFinder.find(ExchangeFinder.java:88)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.connection.Transmitter.newExchange(Transmitter.java:169)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:41)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:88)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.RealCall.getResponseWithInterceptorChain(RealCall.java:221)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.RealCall.execute(RealCall.java:81)
+	at org.sonarsource.scanner.api.internal.ServerConnection.callUrl(ServerConnection.java:115)
+	at org.sonarsource.scanner.api.internal.ServerConnection.downloadString(ServerConnection.java:99)
+	at org.sonarsource.scanner.api.internal.BootstrapIndexDownloader.getIndex(BootstrapIndexDownloader.java:39)
+	... 10 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.platform.Platform.connectSocket(Platform.java:130)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.connection.RealConnection.connectSocket(RealConnection.java:263)
+	... 31 more
+14:55:57.604 ERROR: 
+14:55:57.604 ERROR: Re-run SonarScanner using the -X switch to enable full debug logging.
+WARN: Unable to locate 'report-task.txt' in the workspace. Did the SonarScanner succeed?
+ERROR: SonarQube scanner exited with non-zero code: 1
+[test_app] $ /var/jenkins_home/tools/ru.yandex.qatools.allure.jenkins.tools.AllureCommandlineInstallation/allure/bin/allure generate /var/jenkins_home/workspace/test_app/MY_APP/REPORTS -c -o /var/jenkins_home/workspace/test_app/allure-report
+Report successfully generated to /var/jenkins_home/workspace/test_app/allure-report
+Allure report was successfully generated.
+Creating artifact for the build.
+Artifact was added to the build.
+Finished: FAILURE

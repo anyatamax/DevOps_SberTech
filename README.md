@@ -1,8 +1,10 @@
 # DevOps_SberTech
-Lab2 Part 1  
-собрать докер через команду: docker build -t my_app:v0.1 my_app/  
-запустить докер: docker run -d -p 8000:8000 --name my_app my_app:v0.1
-Running on http:://0.0.0.0:8000  
+Lab3  
+Было написано простое приложение на python в папке my_app/app.py  
+#### Freestyle pipeline Jenkins
+1) В первых шагах происходит сборка приложения через my_app/Dockerfile, там же прогоняются тесты и результат записывается в папку reports/  
+2) SonarQube анализ идет в следующем шаге  
+3) В конце создается allure report на основе тестов  
+К джобе привязаны события (pull request and push) в github репозитории на ветку lab4 (для успешной работы надо прописать результат команды ngrok http 8080 в webhook на github)
+Для работы SonarQube он должен быть запущен через докер: docker run -d --name sonarqube -e SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true -p 9000:9000 sonarqube:latest и через ngrok http 9000 получен адресс по которому можно обращаться к Sonar (актуальный адресс должен быть прописан в опициях к шагу с SonarQube)  
 
-Так же можно скачать из репозитория: docker pull docker.io/anyamax/test_app_docker:test_app_docker  
-и запустить через команду: docker run -d -p 8000:8000 --name my_app anyamax/test_app_docker:test_app_docker

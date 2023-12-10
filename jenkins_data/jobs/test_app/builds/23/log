@@ -1,0 +1,88 @@
+Started by user [8mha:////4DXzqb/P0g4+3IeEV1FfumtMLlRmcFFdUMiwkSEQeauUAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/test_app
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/test_app/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/anyatamax/DevOps_SberTech.git # timeout=10
+Fetching upstream changes from https://github.com/anyatamax/DevOps_SberTech.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+ > git fetch --tags --force --progress -- https://github.com/anyatamax/DevOps_SberTech.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/lab4^{commit} # timeout=10
+Checking out Revision fd8d2595dacb29c7e4704ee2a2764bf009ad07fa (refs/remotes/origin/lab4)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fd8d2595dacb29c7e4704ee2a2764bf009ad07fa # timeout=10
+Commit message: "add tests"
+ > git rev-list --no-walk fd8d2595dacb29c7e4704ee2a2764bf009ad07fa # timeout=10
+[test_app] $ /bin/sh -xe /tmp/jenkins9812157744350493307.sh
++ cd my_app
++ docker build -t app .
+#1 [internal] load build definition from Dockerfile
+#1 sha256:f4c87cc0a8a5ee732cd8aec1adcd9eca36c9423c2c559d36d3721d0d4437dfe9
+#1 transferring dockerfile: 32B done
+#1 DONE 0.0s
+
+#2 [internal] load .dockerignore
+#2 sha256:9cec041574cecff4d369dd47669cb801fee97316ad269494ac1b924d9f6ced8e
+#2 transferring context: 2B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/ubuntu:latest
+#3 sha256:abd44fdc5704a1f31ce24272a9c459712f2a16d9c7c7ce9bcc7a9b6c11e01aa9
+#3 DONE 0.4s
+
+#10 [1/7] FROM docker.io/library/ubuntu:latest@sha256:8eab65df33a6de2844c9aefd19efe8ddb87b7df5e9185a4ab73af936225685bb
+#10 sha256:efc1c99f68cfc984c2980ee7719f93ec52e69a0cf3df478652e710c2c47b3756
+#10 DONE 0.0s
+
+#11 [internal] load build context
+#11 sha256:3d597fc296af63364c25abb53e553f69265130b949d2f897b1e3d8616488aa89
+#11 transferring context: 155B done
+#11 DONE 0.0s
+
+#5 [3/7] RUN apt-get install -y python3-pip python3-dev build-essential
+#5 sha256:7e9ee34b265df92bf734bb6146aa29581d0a0d41ae71eb7c40243f80493714d3
+#5 CACHED
+
+#6 [4/7] RUN pip3 install pytest allure-pytest
+#6 sha256:cc8ece1958c50ac864c2cbe6199d651d610faab064bcc5fb1687cfddf588efc0
+#6 CACHED
+
+#7 [5/7] COPY . /my_app
+#7 sha256:2fc2f2306ab91d8c31b6654dd21e8b7d2396481a85dd167849df8a506a319686
+#7 CACHED
+
+#8 [6/7] WORKDIR /my_app
+#8 sha256:84b682a2c9ba7bb1f33fba5f96677c8c4cd1e0f349be039355431ee672f7fa95
+#8 CACHED
+
+#4 [2/7] RUN apt-get update -y
+#4 sha256:87cad86a8f4e445f4c90d95cd8ab3b45c70206c440abc2263f4e4597f75b82d4
+#4 CACHED
+
+#9 [7/7] RUN python3 app.py && pytest -v test_main.py --alluredir=reports/
+#9 sha256:e2dfff4f80b875385e69a4d8748c41dca4aeabe990670965b3be017bbb0f157e
+#9 CACHED
+
+#12 exporting to image
+#12 sha256:e8c613e07b0b7ff33893b694f7759a10d42e180f2b4dc349fb57dc6b71dcab00
+#12 exporting layers done
+#12 writing image sha256:58d9b67f26c6eeaf3e3a2a419a756e5d289465349fe5c528c9ba4d84076cb07a
+#12 writing image sha256:58d9b67f26c6eeaf3e3a2a419a756e5d289465349fe5c528c9ba4d84076cb07a done
+#12 naming to docker.io/library/app done
+#12 DONE 0.0s
+[test_app] $ /bin/sh -xe /tmp/jenkins16081067983696474460.sh
++ docker run app
+[test_app] $ /bin/sh -xe /tmp/jenkins15853182335998449513.sh
++ docker cp app:/my_app/reports reports/
+Error: No such container:path: app:/my_app/reports
+Build step 'Execute shell' marked build as failure
+[test_app] $ /var/jenkins_home/tools/ru.yandex.qatools.allure.jenkins.tools.AllureCommandlineInstallation/allure/bin/allure generate -c -o /var/jenkins_home/workspace/test_app/allure-report
+allure-results does not exist
+Report successfully generated to /var/jenkins_home/workspace/test_app/allure-report
+Allure report was successfully generated.
+Creating artifact for the build.
+Artifact was added to the build.
+Finished: FAILURE

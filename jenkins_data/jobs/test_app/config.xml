@@ -1,7 +1,7 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <project>
   <actions/>
-  <description></description>
+  <description>Build and test my app</description>
   <keepDependencies>false</keepDependencies>
   <properties/>
   <scm class="hudson.plugins.git.GitSCM" plugin="git@5.2.1">
@@ -33,13 +33,31 @@
   <builders>
     <hudson.tasks.Shell>
       <command>cd my_app
-docker build --tag &apos;app&apos; .</command>
+docker build -t app .</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
     <hudson.tasks.Shell>
-      <command>docker run &apos;app&apos;</command>
+      <command>docker run --name jenkins_app app</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
+    <hudson.tasks.Shell>
+      <command>docker cp jenkins_app:/my_app/reports my_app/reports/</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+    <hudson.plugins.sonar.SonarRunnerBuilder plugin="sonar@2.16.1">
+      <project></project>
+      <properties>sonar.projectBaseDir=/var/lib/jenkins/workspace/my_app
+sonar.language=python
+sonar.host.url=https://da32-188-244-13-153.ngrok-free.app
+sonar.projectVersion=1.0
+sonar.sources=.
+sonar.verbose=true
+sonar.analysis.mode=publish</properties>
+      <javaOpts></javaOpts>
+      <additionalArguments></additionalArguments>
+      <jdk>(Inherit From Job)</jdk>
+      <task>requires SonarQube Scanner 2.1+</task>
+    </hudson.plugins.sonar.SonarRunnerBuilder>
   </builders>
   <publishers>
     <ru.yandex.qatools.allure.jenkins.AllureReportPublisher plugin="allure-jenkins-plugin@2.31.1">

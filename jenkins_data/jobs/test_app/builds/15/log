@@ -1,0 +1,121 @@
+Started by GitHub push by anyatamax
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/test_app
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/test_app/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/anyatamax/DevOps_SberTech.git # timeout=10
+Fetching upstream changes from https://github.com/anyatamax/DevOps_SberTech.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+ > git fetch --tags --force --progress -- https://github.com/anyatamax/DevOps_SberTech.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/lab4^{commit} # timeout=10
+Checking out Revision fd8d2595dacb29c7e4704ee2a2764bf009ad07fa (refs/remotes/origin/lab4)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fd8d2595dacb29c7e4704ee2a2764bf009ad07fa # timeout=10
+Commit message: "add tests"
+ > git rev-list --no-walk 85cfffc9730840a390a8e221879225a9fbb2c78c # timeout=10
+[test_app] $ /bin/sh -xe /tmp/jenkins17535793647158889641.sh
++ cd my_app
++ docker build --tag app .
+#1 [internal] load build definition from Dockerfile
+#1 sha256:38d58642c28f8482c687212c846b7bb2ce79b0558bdac7c2524c7c8dea898510
+#1 transferring dockerfile: 278B 0.0s done
+#1 DONE 0.0s
+
+#2 [internal] load .dockerignore
+#2 sha256:50b943af4ad807255daedc825a721942174baa9fa9c9984da8fc723a8c2e35ee
+#2 transferring context: 2B 0.0s done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/ubuntu:latest
+#3 sha256:abd44fdc5704a1f31ce24272a9c459712f2a16d9c7c7ce9bcc7a9b6c11e01aa9
+#3 DONE 0.0s
+
+#4 [1/7] FROM docker.io/library/ubuntu:latest
+#4 sha256:e3acda44078840c3a173601a2f7b12df90a695c0e0cb70fa6522ed9754926fe6
+#4 DONE 0.0s
+
+#5 [2/7] RUN apt-get update -y
+#5 sha256:80604d0c076ddc615fbd3cfe6a68b7f728e1233552fa0a349c42357dfa188702
+#5 CACHED
+
+#6 [3/7] RUN apt-get install -y python3-pip python3-dev build-essential
+#6 sha256:00b83309ed95cf0b1e4dd09553aef73119b1a5b1d527e8eb1ad219681654323e
+#6 CACHED
+
+#8 [internal] load build context
+#8 sha256:81ce1afa8c06176c9bf89b9e84828bd889fac170b57a1b94ee161b7a130e264d
+#8 transferring context: 7.28kB 0.0s done
+#8 DONE 0.0s
+
+#7 [4/7] RUN pip3 install pytest allure-pytest
+#7 sha256:71d722ac942369195060f011cc4428d108ba255c86d890b863572ffe553929d5
+#7 1.194 Collecting pytest
+#7 1.524   Downloading pytest-7.4.3-py3-none-any.whl (325 kB)
+#7 1.689      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 325.1/325.1 KB 2.0 MB/s eta 0:00:00
+#7 1.753 Collecting allure-pytest
+#7 1.798   Downloading allure_pytest-2.13.2-py3-none-any.whl (10 kB)
+#7 1.856 Collecting exceptiongroup>=1.0.0rc8
+#7 1.900   Downloading exceptiongroup-1.2.0-py3-none-any.whl (16 kB)
+#7 1.950 Collecting pluggy<2.0,>=0.12
+#7 1.993   Downloading pluggy-1.3.0-py3-none-any.whl (18 kB)
+#7 2.038 Collecting iniconfig
+#7 2.081   Downloading iniconfig-2.0.0-py3-none-any.whl (5.9 kB)
+#7 2.130 Collecting packaging
+#7 2.174   Downloading packaging-23.2-py3-none-any.whl (53 kB)
+#7 2.191      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 53.0/53.0 KB 3.4 MB/s eta 0:00:00
+#7 2.231 Collecting tomli>=1.0.0
+#7 2.274   Downloading tomli-2.0.1-py3-none-any.whl (12 kB)
+#7 2.339 Collecting allure-python-commons==2.13.2
+#7 2.385   Downloading allure_python_commons-2.13.2-py3-none-any.whl (14 kB)
+#7 2.488 Collecting attrs>=16.0.0
+#7 2.531   Downloading attrs-23.1.0-py3-none-any.whl (61 kB)
+#7 2.590      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.2/61.2 KB 9.9 MB/s eta 0:00:00
+#7 2.629 Installing collected packages: tomli, pluggy, packaging, iniconfig, exceptiongroup, attrs, pytest, allure-python-commons, allure-pytest
+#7 2.864 Successfully installed allure-pytest-2.13.2 allure-python-commons-2.13.2 attrs-23.1.0 exceptiongroup-1.2.0 iniconfig-2.0.0 packaging-23.2 pluggy-1.3.0 pytest-7.4.3 tomli-2.0.1
+#7 2.864 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#7 DONE 2.9s
+
+#9 [5/7] COPY . /my_app
+#9 sha256:8dd7a96ba1dcb540d344af64e1f0e28361f29235e39cce57b2eb9c6c56b3eca7
+#9 DONE 0.0s
+
+#10 [6/7] WORKDIR /my_app
+#10 sha256:1dd22d4de4f7eb2bc28f7ef74bd26dbae76312a90a9f292f8000d778c946f503
+#10 DONE 0.0s
+
+#11 [7/7] RUN python3 app.py && pytest -v test_main.py --alluredir=reports/
+#11 sha256:0d9ed05eb1b3869341b2f4382b82e1540ed1037ed2dff3dd01ff8f188e75647b
+#11 0.206 Hello 2024
+#11 0.338 ============================= test session starts ==============================
+#11 0.338 platform linux -- Python 3.10.12, pytest-7.4.3, pluggy-1.3.0 -- /usr/bin/python3
+#11 0.338 cachedir: .pytest_cache
+#11 0.338 rootdir: /my_app
+#11 0.338 plugins: allure-pytest-2.13.2
+#11 0.338 collecting ... collected 2 items
+#11 0.341 
+#11 0.341 test_main.py::TestMain::test_add PASSED                                  [ 50%]
+#11 0.342 test_main.py::TestMain::test_subtract PASSED                             [100%]
+#11 0.344 
+#11 0.344 ============================== 2 passed in 0.01s ===============================
+#11 DONE 0.4s
+
+#12 exporting to image
+#12 sha256:e8c613e07b0b7ff33893b694f7759a10d42e180f2b4dc349fb57dc6b71dcab00
+#12 exporting layers
+#12 exporting layers 0.1s done
+#12 writing image sha256:a1fcbddcf036085245bb9f635ad6fce49cc133d5864123bb3c4bcaad4ed5d8c7 done
+#12 naming to docker.io/library/app done
+#12 DONE 0.1s
+[test_app] $ /bin/sh -xe /tmp/jenkins14054053485029429508.sh
++ docker run app
+Unpacking https://repo1.maven.org/maven2/io/qameta/allure/allure-commandline/2.25.0/allure-commandline-2.25.0.zip to /var/jenkins_home/tools/ru.yandex.qatools.allure.jenkins.tools.AllureCommandlineInstallation/allure on Jenkins
+[test_app] $ /var/jenkins_home/tools/ru.yandex.qatools.allure.jenkins.tools.AllureCommandlineInstallation/allure/bin/allure generate -c -o /var/jenkins_home/workspace/test_app/allure-report
+allure-results does not exist
+Report successfully generated to /var/jenkins_home/workspace/test_app/allure-report
+Allure report was successfully generated.
+Creating artifact for the build.
+Artifact was added to the build.
+Finished: SUCCESS
