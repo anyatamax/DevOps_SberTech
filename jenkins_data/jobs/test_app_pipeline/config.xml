@@ -1,0 +1,69 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1385.vb_58b_86ea_fff1">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2151.ve32c9d209a_3f"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2151.ve32c9d209a_3f">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description>Build and test my app</description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
+      <triggers>
+        <com.cloudbees.jenkins.GitHubPushTrigger plugin="github@1.37.3.1">
+          <spec></spec>
+        </com.cloudbees.jenkins.GitHubPushTrigger>
+      </triggers>
+    </org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3826.v3b_5707fe44da_">
+    <script>pipeline {
+    agent any
+    stages {
+        stage(&quot;Pull Git&quot;) {
+            steps {
+                git branch: &apos;lab4&apos;, url: &apos;https://github.com/anyatamax/DevOps_SberTech.git&apos;
+            }
+        }
+        stage(&apos;Build&apos;) {
+            steps {
+                sh &quot;docker build -t app my_app/.&quot;
+                sh &quot;docker run --name jenkins_app app&quot;
+                sh &quot;docker cp jenkins_app:/my_app/reports my_app/reports/&quot;
+            }
+        }
+        stage(&apos;Allure report&apos;) {
+                steps {
+                script {
+                  allure([
+                          includeProperties: false,
+                          jdk: &apos;&apos;,
+                          properties: [],
+                          reportBuildPolicy: &apos;ALWAYS&apos;,
+                          results: [[path: &apos;my_app/reports&apos;]]
+                  ])
+                }
+                }
+        }
+        stage(&apos;SonarQube analysis&apos;) {
+            steps{
+                script{
+                    scannerHome = tool &apos;SonarQube 5&apos;;
+                }
+            withSonarQubeEnv(&apos;SonarQube 5&apos;) { // If you have configured more than one global server connection, you can specify its name
+            sh &quot;${scannerHome}/bin/sonar-scanner -Dsonar.projectBaseDir=my_app -Dsonar.language=python -Dsonar.host.url=https://da32-188-244-13-153.ngrok-free.app -Dsonar.projectVersion=1.0 -Dsonar.sources=. -Dsonar.verbose=true -Dsonar.analysis.mode=publish -Dsonar.projectKey=sonar_test_app -X&quot;
+            }
+            }
+        }
+    }
+}
+</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

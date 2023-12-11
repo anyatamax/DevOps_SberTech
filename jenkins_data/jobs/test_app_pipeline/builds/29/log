@@ -1,0 +1,894 @@
+Started by user [8mha:////4DXzqb/P0g4+3IeEV1FfumtMLlRmcFFdUMiwkSEQeauUAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[8mha:////4KBRdd9kyDzTnPIjrQUEAhMndHTM6neHMz7S6PaKhAmiAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4FLPqtTresJw9shBfVOq2o96MD28dUC3TSwkEUTvRz8qAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4ClHgONCJXr8L0L7VwcUF73Evi4R+u0HSg6cMrspc/c0AAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/test_app_pipeline
+[8mha:////4FgtdmuWtm3iS0a0IQCZbxUB4kh/Ep53blC6tQtmgeizAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4G6z+QR6+D7O+20xgVoNeevciEsVGtzwDkE9uFSL5HkQAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4D8jVQzYrTnMXffBZ+BZwA4TK8A7FGJ3Txiw/6OhPeCWAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Pull Git)
+[8mha:////4FKvWXFAZd4SydjgsPtST68lfQ2ktBqyZKBOtgvOD3GAAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] git
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/test_app_pipeline/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/anyatamax/DevOps_SberTech.git # timeout=10
+Fetching upstream changes from https://github.com/anyatamax/DevOps_SberTech.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+ > git fetch --tags --force --progress -- https://github.com/anyatamax/DevOps_SberTech.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/lab4^{commit} # timeout=10
+Checking out Revision 152eb630608c30567cc8e2a5449589c5ddb20e86 (refs/remotes/origin/lab4)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 152eb630608c30567cc8e2a5449589c5ddb20e86 # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D lab4 # timeout=10
+ > git checkout -b lab4 152eb630608c30567cc8e2a5449589c5ddb20e86 # timeout=10
+Commit message: "add sonar"
+ > git rev-list --no-walk 152eb630608c30567cc8e2a5449589c5ddb20e86 # timeout=10
+[8mha:////4HbpAaCeRqbkRgNpCTi9j8VMf+RcHPZnXXOV7wSzZuSbAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4OOe0xFVxGGbMKE7c6JWVUKCTzzr5ZL23yTmqzkC1yzaAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4IxrMzEtnz5qsAXebGiARsdrGSwdqwF3ocM2X5W36Uc7AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] stage
+[8mha:////4LhC7DCRkQheJtp+2dKHRg6GlxFCrU263n6886jalDQyAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (Build)
+[8mha:////4MKuYiwJgHFYs84qPG7MpW9RSRHTM9QxkjF9+6lq4xCVAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] sh
++ docker build -t app my_app/.
+#1 [internal] load build definition from Dockerfile
+#1 sha256:92c688d3cf239d24e95f09a47e2a831cfdbab80af996504ca5dc5fbcff73e84a
+#1 transferring dockerfile: 32B 0.0s done
+#1 DONE 0.0s
+
+#2 [internal] load .dockerignore
+#2 sha256:2d7ef336132bcdf9ede53c061e8a08b010c0e2ffd3410174058f56dabbb72a6a
+#2 transferring context: 2B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/ubuntu:latest
+#3 sha256:abd44fdc5704a1f31ce24272a9c459712f2a16d9c7c7ce9bcc7a9b6c11e01aa9
+#3 DONE 1.5s
+
+#4 [1/7] FROM docker.io/library/ubuntu:latest@sha256:8eab65df33a6de2844c9aefd19efe8ddb87b7df5e9185a4ab73af936225685bb
+#4 sha256:efc1c99f68cfc984c2980ee7719f93ec52e69a0cf3df478652e710c2c47b3756
+#4 DONE 0.0s
+
+#8 [internal] load build context
+#8 sha256:ca2781d3f380617aac75201d14913532ff17475be0106e798fc06e1b31c7124a
+#8 transferring context: 28.15kB 0.1s done
+#8 DONE 0.1s
+
+#5 [2/7] RUN apt-get update -y
+#5 sha256:87cad86a8f4e445f4c90d95cd8ab3b45c70206c440abc2263f4e4597f75b82d4
+#5 CACHED
+
+#6 [3/7] RUN apt-get install -y python3-pip python3-dev build-essential
+#6 sha256:7e9ee34b265df92bf734bb6146aa29581d0a0d41ae71eb7c40243f80493714d3
+#6 CACHED
+
+#7 [4/7] RUN pip3 install pytest allure-pytest
+#7 sha256:cc8ece1958c50ac864c2cbe6199d651d610faab064bcc5fb1687cfddf588efc0
+#7 CACHED
+
+#9 [5/7] COPY . /my_app
+#9 sha256:b8224220a9d8f17d11c98b4df1b2782682a907f44b2d867c0e84a3f3eccc6fcf
+#9 DONE 0.0s
+
+#10 [6/7] WORKDIR /my_app
+#10 sha256:9b3d0a12af3f32d3c9f5927a3454f658cfe1adf2be826cf8c063d1a9ae1664e5
+#10 DONE 0.0s
+
+#11 [7/7] RUN python3 app.py && pytest -v test_main.py --alluredir=reports/
+#11 sha256:6af9f69631fd38de2839d8cb5140ee00df2222aada6d3e80074feca8f74589d0
+#11 0.220 Hello 2024
+#11 0.369 ============================= test session starts ==============================
+#11 0.369 platform linux -- Python 3.10.12, pytest-7.4.3, pluggy-1.3.0 -- /usr/bin/python3
+#11 0.369 cachedir: .pytest_cache
+#11 0.369 rootdir: /my_app
+#11 0.369 plugins: allure-pytest-2.13.2
+#11 0.369 collecting ... collected 2 items
+#11 0.372 
+#11 0.372 test_main.py::TestMain::test_add PASSED                                  [ 50%]
+#11 0.374 test_main.py::TestMain::test_subtract PASSED                             [100%]
+#11 0.376 
+#11 0.376 ============================== 2 passed in 0.01s ===============================
+#11 DONE 0.4s
+
+#12 exporting to image
+#12 sha256:e8c613e07b0b7ff33893b694f7759a10d42e180f2b4dc349fb57dc6b71dcab00
+#12 exporting layers 0.0s done
+#12 writing image sha256:cc95ff5196198984a93aee0602860be2ee99b05f25914765320daa694a08d2bc done
+#12 naming to docker.io/library/app done
+#12 DONE 0.0s
+[8mha:////4LAkRYG3Hph+jrkkaE1ibgKPgwwYhm3YI0ou38K6vBGdAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs35DNwLL4AAAA=[0m[Pipeline] sh
++ docker run --name jenkins_app app
+[8mha:////4KvXoIjrrfzqOub1BaaG9IqTUKJfdEhy0/78qXdaDsgaAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaJm7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPYJ6rb91N6/ASOlMWO+AAAA[0m[Pipeline] sh
++ docker cp jenkins_app:/my_app/reports my_app/reports/
+[8mha:////4JNKJ5Bk696ggWpDtbKDPGnZFpzn5mrVoFOc0XGwzrpnAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyKawcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfnAYgMb4AAAA=[0m[Pipeline] }
+[8mha:////4BOVs+pN3pSPH9Mff9WTykCyYPblA+JBdQ/S8SaxjtKnAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICDQ2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BqREs8C+AAAA[0m[Pipeline] // stage
+[8mha:////4FrbE8nULDtuwnOnQ+BzITh1FPNghSomQBbDWgb2CtP4AAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJCQKREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgtQ7HZfY7lGw7UL0zBAAAA[0m[Pipeline] stage
+[8mha:////4GThK9Sv/NnBTx5RKbDOnrUNF0u/3K5vshPURvUIfWXuAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] { (Allure report)
+[8mha:////4KCdNdskkAqP8jjswfDoI//P5hG9b+KY8FAu0gSslU1vAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] script
+[8mha:////4Dp+9s1dltEaAnrsohdC3y88wtT3pOC67o+/D45Ockw1AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogU2BDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrN7xWSV3CAAAA[0m[Pipeline] {
+[8mha:////4BwuA3NsdOIxOkLnltP32DENhHadriUACGxiABwCsB6GAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICtIgqreWGF5jYGCfWnbEdkooX8TX+QCASFVusdraZ5wuWKcKRo8XWUOcoNQ6D7+20cODYXTwP2PIZG6bE3qA0g2Rt6hklZwNzihIWAlaGGs/Jkc2wFq26q8orstUpx+k7CCidvsEDCjGZs4r5C2OEzbXXienn+SuAMWQo99tP7cIbaOP4NL4AAAA=[0m[Pipeline] allure
+[test_app_pipeline] $ /var/jenkins_home/tools/ru.yandex.qatools.allure.jenkins.tools.AllureCommandlineInstallation/allure/bin/allure generate /var/jenkins_home/workspace/test_app_pipeline/MY_APP/REPORTS -c -o /var/jenkins_home/workspace/test_app_pipeline/allure-report
+Report successfully generated to /var/jenkins_home/workspace/test_app_pipeline/allure-report
+Allure report was successfully generated.
+Creating artifact for the build.
+Artifact was added to the build.
+[8mha:////4LcnQpbF2QHibPKrQ6cxEUXIlJEte6dzmFEDU+VWhf/vAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKC0iIqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJu8TlHX9qf0b7E/nQb4AAAA=[0m[Pipeline] }
+[8mha:////4JxmNQWkAqQWcHaEQCF6jPW8epIxoLoYnJtx7Be5i9SHAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrdPtf28AEud0rYvgAAAA==[0m[Pipeline] // script
+[8mha:////4GzMHD92QNKtUlI0P6M+3PMH3FITNx4EKN5KJNmjkvBMAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAAHdIsr4AAAA=[0m[Pipeline] }
+[8mha:////4P9Hc0xKVraiO6NStlgU7cwTcz/8TRhVUD/l9HOuDxJjAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikBAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwANLmr6b4AAAA=[0m[Pipeline] // stage
+[8mha:////4DeJ1ebK5zkYV2vkWJAlM9bRvASYr99BoNc5qdYR2GYgAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjIUSDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKDa7z7F8AzYdm7bBAAAA[0m[Pipeline] stage
+[8mha:////4GObXzk6nPGEPHQY3mNPYeryXKidJ7OVHtBA0sCcc9jRAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] { (SonarQube analysis)
+[8mha:////4O9MvRgMfKjHp6aojOBqcFr/ElQA3/HdLe/yHyNuHeG1AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAnLfKUwgAAAA==[0m[Pipeline] script
+[8mha:////4CHnqn3ki5D5miIXRRW5sfYolD513kz4XOYSq0cb/KrfAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0QKVszCAAAA[0m[Pipeline] {
+[8mha:////4BTahOlJlaKDAqw7q156lshDhgSOtxp73LR9fZde37A6AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AHN/bm5vgAAAA==[0m[Pipeline] tool
+[8mha:////4CmChObm1tOQA4G9EgLUmXstTvEh+fpZKjPhBKzC4U6jAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AFSjtgYvgAAAA==[0m[Pipeline] }
+[8mha:////4FBx8nZpp7xvJgQWytMUc0Yq1uq+3r515arxUx9DipZWAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihQYJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5r3PVhw9qzEvpvgAAAA==[0m[Pipeline] // script
+[8mha:////4NdHSbYQ5luPaNLeBJQ7K3cqMlk0lI14V67dvXqlNqpSAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUogMDYuoaZeEEIQkhbfR/SVLaiRNxNe5AoBITHizbkvWeL6higCMFyzqDvcOoHBv8aHNiE4X+4mliHZ2ZIozkDRNmEqRNu1RBycCiooQVh7VB5Sk6tAk2vJN3WXuJtj6lkLcDh9LpGzyg4JmcZEjfMgfYXkcdCX+cvwCYhwTlbp+taT7P6g1Q1kJYwgAAAA==[0m[Pipeline] withSonarQubeEnv
+Injecting SonarQube environment variables using the configuration: SonarQube 5
+[8mha:////4JUH5MlaMS+0kIlasGe/fc77dDx/spWGdBUXQSAbKZ4DAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KBtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPBdk7bsIAAAA=[0m[Pipeline] {
+[8mha:////4HGCx+pjNaoUStzq3tkiPsdXppf2HmB006jIA9P/gRgvAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSABWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBtZos2m+AAAA[0m[Pipeline] sh
++ /var/jenkins_home/tools/hudson.plugins.sonar.SonarRunnerInstallation/SonarQube_5/bin/sonar-scanner -Dsonar.projectBaseDir=my_app -Dsonar.language=python -Dsonar.host.url=https://da32-188-244-13-153.ngrok-free.app -Dsonar.projectVersion=1.0 -Dsonar.sources=. -Dsonar.verbose=true -Dsonar.analysis.mode=publish -Dsonar.projectKey=sonar_test_app -X
+03:45:12.234 INFO: Scanner configuration file: /var/jenkins_home/tools/hudson.plugins.sonar.SonarRunnerInstallation/SonarQube_5/conf/sonar-scanner.properties
+03:45:12.261 INFO: Project root configuration file: NONE
+03:45:12.299 INFO: SonarScanner 5.0.1.3006
+03:45:12.300 INFO: Java 17.0.9 Eclipse Adoptium (64-bit)
+03:45:12.302 INFO: Linux 5.15.49-linuxkit aarch64
+03:45:12.471 DEBUG: keyStore is : 
+03:45:12.472 DEBUG: keyStore type is : pkcs12
+03:45:12.475 DEBUG: keyStore provider is : 
+03:45:12.477 DEBUG: init keystore
+03:45:12.479 DEBUG: init keymanager of type SunX509
+03:45:12.582 DEBUG: Create: /root/.sonar/cache
+03:45:12.584 INFO: User cache: /root/.sonar/cache
+03:45:12.586 DEBUG: Create: /root/.sonar/cache/_tmp
+03:45:12.596 DEBUG: Extract sonar-scanner-api-batch in temp...
+03:45:12.602 DEBUG: Get bootstrap index...
+03:45:12.603 DEBUG: Download: https://da32-188-244-13-153.ngrok-free.app/batch/index
+03:45:13.057 DEBUG: Get bootstrap completed
+03:45:13.063 DEBUG: Create isolated classloader...
+03:45:13.074 DEBUG: Start temp cleaning...
+03:45:13.078 DEBUG: Temp cleaning done
+03:45:13.079 DEBUG: Execution getVersion
+03:45:13.100 INFO: Analyzing on SonarQube server 10.3.0.82913
+03:45:13.101 INFO: Default locale: "en", source code encoding: "UTF-8" (analysis is platform dependent)
+03:45:13.103 DEBUG: Work directory: /var/jenkins_home/workspace/test_app_pipeline/my_app/.scannerwork
+03:45:13.113 DEBUG: Execution execute
+03:45:13.423 DEBUG: Community 10.3.0.82913
+03:45:13.632 INFO: Load global settings
+03:45:13.951 DEBUG: GET 200 https://da32-188-244-13-153.ngrok-free.app/api/settings/values.protobuf | time=315ms
+03:45:13.986 INFO: Load global settings (done) | time=354ms
+03:45:13.989 INFO: Server id: 147B411E-AYxUQBapzNpIsTSa5Xhz
+03:45:13.994 INFO: User cache: /root/.sonar/cache
+03:45:14.008 INFO: Load/download plugins
+03:45:14.010 INFO: Load plugins index
+03:45:14.113 DEBUG: GET 200 https://da32-188-244-13-153.ngrok-free.app/api/plugins/installed | time=101ms
+03:45:14.142 INFO: Load plugins index (done) | time=132ms
+03:45:14.262 INFO: Load/download plugins (done) | time=254ms
+03:45:14.304 DEBUG: Plugins:
+03:45:14.305 DEBUG:   * Python Code Quality and Security 4.10.0.13725 (python)
+03:45:14.306 DEBUG:   * Clean as You Code 2.2.2.656 (cayc)
+03:45:14.308 DEBUG:   * Go Code Quality and Security 1.15.0.4655 (go)
+03:45:14.309 DEBUG:   * JaCoCo 1.3.0.1538 (jacoco)
+03:45:14.310 DEBUG:   * Kotlin Code Quality and Security 2.18.0.2938 (kotlin)
+03:45:14.311 DEBUG:   * IaC Code Quality and Security 1.22.0.7057 (iac)
+03:45:14.313 DEBUG:   * JavaScript/TypeScript/CSS Code Quality and Security 10.9.0.24449 (javascript)
+03:45:14.321 DEBUG:   * Ruby Code Quality and Security 1.15.0.4655 (ruby)
+03:45:14.322 DEBUG:   * Scala Code Quality and Security 1.15.0.4655 (sonarscala)
+03:45:14.323 DEBUG:   * C# Code Quality and Security 9.13.0.79967 (csharp)
+03:45:14.324 DEBUG:   * Java Code Quality and Security 7.27.1.33504 (java)
+03:45:14.325 DEBUG:   * HTML Code Quality and Security 3.11.0.4708 (web)
+03:45:14.328 DEBUG:   * Flex Code Quality and Security 2.12.0.4568 (flex)
+03:45:14.330 DEBUG:   * XML Code Quality and Security 2.10.0.4108 (xml)
+03:45:14.330 DEBUG:   * PHP Code Quality and Security 3.33.0.11274 (php)
+03:45:14.332 DEBUG:   * Text Code Quality and Security 2.7.1.1388 (text)
+03:45:14.333 DEBUG:   * VB.NET Code Quality and Security 9.13.0.79967 (vbnet)
+03:45:14.334 DEBUG:   * Configuration detection for Code Quality and Security 1.3.0.654 (config)
+03:45:14.801 INFO: Process project properties
+03:45:14.809 INFO: Process project properties (done) | time=8ms
+03:45:14.820 INFO: Execute project builders
+03:45:14.825 DEBUG: Execute project builder: org.sonar.plugins.csharp.CSharpGlobalProtobufFileProcessor
+03:45:14.828 DEBUG: Execute project builder: org.sonar.plugins.vbnet.VbNetGlobalProtobufFileProcessor
+03:45:14.834 INFO: Execute project builders (done) | time=13ms
+03:45:14.845 INFO: Project key: sonar_test_app
+03:45:14.846 INFO: Base dir: /var/jenkins_home/workspace/test_app_pipeline/my_app
+03:45:14.847 INFO: Working dir: /var/jenkins_home/workspace/test_app_pipeline/my_app/.scannerwork
+03:45:14.848 DEBUG: Project global encoding: UTF-8, default locale: en
+03:45:14.863 INFO: Load project settings for component key: 'sonar_test_app'
+03:45:14.972 DEBUG: GET 200 https://da32-188-244-13-153.ngrok-free.app/api/settings/values.protobuf?component=sonar_test_app | time=108ms
+03:45:14.975 INFO: Load project settings for component key: 'sonar_test_app' (done) | time=112ms
+03:45:15.061 DEBUG: Creating module hierarchy
+03:45:15.062 DEBUG:   Init module 'sonar_test_app'
+03:45:15.065 DEBUG:     Base dir: /var/jenkins_home/workspace/test_app_pipeline/my_app
+03:45:15.066 DEBUG:     Working dir: /var/jenkins_home/workspace/test_app_pipeline/my_app/.scannerwork
+03:45:15.068 DEBUG:     Module global encoding: UTF-8, default locale: en
+03:45:15.084 DEBUG: Available languages:
+03:45:15.087 DEBUG:   * Python => "py"
+03:45:15.088 DEBUG:   * Go => "go"
+03:45:15.090 DEBUG:   * Kotlin => "kotlin"
+03:45:15.091 DEBUG:   * Terraform => "terraform"
+03:45:15.092 DEBUG:   * CloudFormation => "cloudformation"
+03:45:15.093 DEBUG:   * Kubernetes => "kubernetes"
+03:45:15.094 DEBUG:   * Docker => "docker"
+03:45:15.095 DEBUG:   * AzureResourceManager => "azureresourcemanager"
+03:45:15.096 DEBUG:   * JavaScript => "js"
+03:45:15.098 DEBUG:   * TypeScript => "ts"
+03:45:15.099 DEBUG:   * CSS => "css"
+03:45:15.101 DEBUG:   * Ruby => "ruby"
+03:45:15.102 DEBUG:   * Scala => "scala"
+03:45:15.103 DEBUG:   * C# => "cs"
+03:45:15.104 DEBUG:   * Java => "java"
+03:45:15.105 DEBUG:   * HTML => "web"
+03:45:15.107 DEBUG:   * JSP => "jsp"
+03:45:15.108 DEBUG:   * Flex => "flex"
+03:45:15.109 DEBUG:   * XML => "xml"
+03:45:15.111 DEBUG:   * PHP => "php"
+03:45:15.111 DEBUG:   * Text => "text"
+03:45:15.119 DEBUG:   * Secrets => "secrets"
+03:45:15.120 DEBUG:   * VB.NET => "vbnet"
+03:45:15.121 DEBUG:   * YAML => "yaml"
+03:45:15.122 DEBUG:   * JSON => "json"
+03:45:15.178 INFO: Auto-configuring with CI 'Jenkins'
+03:45:15.185 INFO: Load quality profiles
+03:45:15.331 DEBUG: GET 200 https://da32-188-244-13-153.ngrok-free.app/api/qualityprofiles/search.protobuf?project=sonar_test_app | time=145ms
+03:45:15.347 INFO: Load quality profiles (done) | time=162ms
+03:45:15.351 INFO: Load active rules
+03:45:15.497 DEBUG: GET 200 https://da32-188-244-13-153.ngrok-free.app/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYxUQJ71zNpIsTSa5kWS&ps=500&p=1 | time=144ms
+03:45:15.713 DEBUG: GET 200 https://da32-188-244-13-153.ngrok-free.app/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYxUQJ8qzNpIsTSa5kXT&ps=500&p=1 | time=133ms
+03:45:15.853 DEBUG: GET 200 https://da32-188-244-13-153.ngrok-free.app/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYxUQJ9UzNpIsTSa5kYx&ps=500&p=1 | time=133ms
+03:45:15.976 DEBUG: GET 200 https://da32-188-244-13-153.ngrok-free.app/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYxUQJ9zzNpIsTSa5kZR&ps=500&p=1 | time=117ms
+03:45:16.366 DEBUG: GET 200 https://da32-188-244-13-153.ngrok-free.app/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYxUQJ-jzNpIsTSa5kiN&ps=500&p=1 | time=387ms
+03:45:16.970 DEBUG: GET 200 https://da32-188-244-13-153.ngrok-free.app/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYxUQKAGzNpIsTSa5kts&ps=500&p=1 | time=424ms
+03:45:17.175 DEBUG: GET 200 https://da32-188-244-13-153.ngrok-free.app/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYxUQKA4zNpIsTSa5kyJ&ps=500&p=1 | time=153ms
+03:45:17.796 DEBUG: GET 200 https://da32-188-244-13-153.ngrok-free.app/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYxUQKDDzNpIsTSa5lCU&ps=500&p=1 | time=617ms
+03:45:18.082 DEBUG: GET 200 https://da32-188-244-13-153.ngrok-free.app/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYxUQKEkzNpIsTSa5lKz&ps=500&p=1 | time=138ms
+03:45:18.219 DEBUG: GET 200 https://da32-188-244-13-153.ngrok-free.app/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYxUQKFNzNpIsTSa5lM2&ps=500&p=1 | time=135ms
+03:45:18.361 DEBUG: GET 200 https://da32-188-244-13-153.ngrok-free.app/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYxUQKF7zNpIsTSa5lOY&ps=500&p=1 | time=139ms
+03:45:18.479 DEBUG: GET 200 https://da32-188-244-13-153.ngrok-free.app/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYxUQKGUzNpIsTSa5lOy&ps=500&p=1 | time=109ms
+03:45:18.600 DEBUG: GET 200 https://da32-188-244-13-153.ngrok-free.app/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYxUQKGWzNpIsTSa5lO2&ps=500&p=1 | time=119ms
+03:45:18.880 DEBUG: GET 200 https://da32-188-244-13-153.ngrok-free.app/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYxUQKG_zNpIsTSa5lT9&ps=500&p=1 | time=278ms
+03:45:19.029 DEBUG: GET 200 https://da32-188-244-13-153.ngrok-free.app/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYxUQKHrzNpIsTSa5lXR&ps=500&p=1 | time=144ms
+03:45:19.137 DEBUG: GET 200 https://da32-188-244-13-153.ngrok-free.app/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYxUQKINzNpIsTSa5lXu&ps=500&p=1 | time=101ms
+03:45:19.270 DEBUG: GET 200 https://da32-188-244-13-153.ngrok-free.app/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYxUQKIYzNpIsTSa5lYp&ps=500&p=1 | time=124ms
+03:45:19.480 DEBUG: GET 200 https://da32-188-244-13-153.ngrok-free.app/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYxUQKJVzNpIsTSa5lc8&ps=500&p=1 | time=200ms
+03:45:19.726 DEBUG: GET 200 https://da32-188-244-13-153.ngrok-free.app/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYxUQKKKzNpIsTSa5lgt&ps=500&p=1 | time=202ms
+03:45:19.859 DEBUG: GET 200 https://da32-188-244-13-153.ngrok-free.app/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYxUQKK4zNpIsTSa5liv&ps=500&p=1 | time=130ms
+03:45:20.276 DEBUG: GET 200 https://da32-188-244-13-153.ngrok-free.app/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYxUQKMPzNpIsTSa5lse&ps=500&p=1 | time=415ms
+03:45:20.630 DEBUG: GET 200 https://da32-188-244-13-153.ngrok-free.app/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYxUQKOGzNpIsTSa5l2-&ps=500&p=1 | time=305ms
+03:45:20.815 DEBUG: GET 200 https://da32-188-244-13-153.ngrok-free.app/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYxUQKPEzNpIsTSa5l7b&ps=500&p=1 | time=178ms
+03:45:20.956 DEBUG: GET 200 https://da32-188-244-13-153.ngrok-free.app/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYxUQKPnzNpIsTSa5l81&ps=500&p=1 | time=136ms
+03:45:21.474 DEBUG: GET 200 https://da32-188-244-13-153.ngrok-free.app/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYxUQKQ8zNpIsTSa5mGD&ps=500&p=1 | time=515ms
+03:45:21.567 INFO: Load active rules (done) | time=6216ms
+03:45:21.572 INFO: Load analysis cache
+03:45:21.681 DEBUG: GET 200 https://da32-188-244-13-153.ngrok-free.app/api/analysis_cache/get?project=sonar_test_app | time=107ms
+03:45:21.691 INFO: Load analysis cache (1.3 kB) | time=119ms
+03:45:21.744 WARN: The property 'sonar.login' is deprecated and will be removed in the future. Please use the 'sonar.token' property instead when passing a token.
+03:45:21.757 INFO: Load project repositories
+03:45:21.871 DEBUG: GET 200 https://da32-188-244-13-153.ngrok-free.app/batch/project.protobuf?key=sonar_test_app | time=113ms
+03:45:21.877 INFO: Load project repositories (done) | time=120ms
+03:45:21.897 DEBUG: Declared patterns of language Python were converted to sonar.lang.patterns.py : **/*.py
+03:45:21.899 DEBUG: Declared patterns of language Go were converted to sonar.lang.patterns.go : **/*.go
+03:45:21.900 DEBUG: Declared patterns of language Kotlin were converted to sonar.lang.patterns.kotlin : **/*.kt,**/*.kts
+03:45:21.902 DEBUG: Declared patterns of language Terraform were converted to sonar.lang.patterns.terraform : **/*.tf
+03:45:21.904 DEBUG: Declared patterns of language CloudFormation were converted to sonar.lang.patterns.cloudformation : 
+03:45:21.905 DEBUG: Declared patterns of language Kubernetes were converted to sonar.lang.patterns.kubernetes : 
+03:45:21.907 DEBUG: Declared patterns of language Docker were converted to sonar.lang.patterns.docker : **/Dockerfile,**/*.dockerfile
+03:45:21.916 DEBUG: Declared patterns of language AzureResourceManager were converted to sonar.lang.patterns.azureresourcemanager : **/*.bicep
+03:45:21.918 DEBUG: Declared patterns of language JavaScript were converted to sonar.lang.patterns.js : **/*.js,**/*.jsx,**/*.cjs,**/*.mjs,**/*.vue
+03:45:21.920 DEBUG: Declared patterns of language TypeScript were converted to sonar.lang.patterns.ts : **/*.ts,**/*.tsx,**/*.cts,**/*.mts
+03:45:21.921 DEBUG: Declared patterns of language CSS were converted to sonar.lang.patterns.css : **/*.css,**/*.less,**/*.scss,**/*.sass
+03:45:21.924 DEBUG: Declared patterns of language Ruby were converted to sonar.lang.patterns.ruby : **/*.rb
+03:45:21.925 DEBUG: Declared patterns of language Scala were converted to sonar.lang.patterns.scala : **/*.scala
+03:45:21.926 DEBUG: Declared patterns of language C# were converted to sonar.lang.patterns.cs : **/*.cs,**/*.razor
+03:45:21.927 DEBUG: Declared patterns of language Java were converted to sonar.lang.patterns.java : **/*.java,**/*.jav
+03:45:21.929 DEBUG: Declared patterns of language HTML were converted to sonar.lang.patterns.web : **/*.html,**/*.xhtml,**/*.cshtml,**/*.vbhtml,**/*.aspx,**/*.ascx,**/*.rhtml,**/*.erb,**/*.shtm,**/*.shtml,**/*.cmp,**/*.twig
+03:45:21.930 DEBUG: Declared patterns of language JSP were converted to sonar.lang.patterns.jsp : **/*.jsp,**/*.jspf,**/*.jspx
+03:45:21.934 DEBUG: Declared patterns of language Flex were converted to sonar.lang.patterns.flex : **/*.as
+03:45:21.935 DEBUG: Declared patterns of language XML were converted to sonar.lang.patterns.xml : **/*.xml,**/*.xsd,**/*.xsl,**/*.config
+03:45:21.936 DEBUG: Declared patterns of language PHP were converted to sonar.lang.patterns.php : **/*.php,**/*.php3,**/*.php4,**/*.php5,**/*.phtml,**/*.inc
+03:45:21.938 DEBUG: Declared patterns of language Text were converted to sonar.lang.patterns.text : 
+03:45:21.939 DEBUG: Declared patterns of language Secrets were converted to sonar.lang.patterns.secrets : 
+03:45:21.943 DEBUG: Declared patterns of language VB.NET were converted to sonar.lang.patterns.vbnet : **/*.vb
+03:45:21.945 DEBUG: Declared patterns of language YAML were converted to sonar.lang.patterns.yaml : **/*.yaml,**/*.yml
+03:45:21.947 DEBUG: Declared patterns of language JSON were converted to sonar.lang.patterns.json : **/*.json
+03:45:21.964 DEBUG: Will ignore generated code
+03:45:21.968 DEBUG: Will ignore generated code
+03:45:21.971 INFO: Indexing files...
+03:45:21.981 INFO: Project configuration:
+03:45:22.006 DEBUG: loading config FileBasedConfig[/root/.config/jgit/config]
+03:45:22.009 DEBUG: readpipe [/usr/bin/git, --version],/usr/bin
+03:45:22.023 DEBUG: readpipe may return 'git version 2.39.2'
+03:45:22.025 DEBUG: remaining output:
+
+03:45:22.026 DEBUG: readpipe [/usr/bin/git, config, --system, --show-origin, --list, -z],/usr/bin
+03:45:22.030 DEBUG: readpipe may return 'file:/etc/gitconfig filter.lfs.clean'
+03:45:22.032 DEBUG: remaining output:
+
+03:45:22.033 DEBUG: git-lfs clean -- %f file:/etc/gitconfig filter.lfs.smudge
+03:45:22.034 DEBUG: git-lfs smudge -- %f file:/etc/gitconfig filter.lfs.process
+03:45:22.036 DEBUG: git-lfs filter-process file:/etc/gitconfig filter.lfs.required
+03:45:22.037 DEBUG: true 
+03:45:22.047 DEBUG: loading config FileBasedConfig[/etc/gitconfig]
+03:45:22.049 DEBUG: loading config FileBasedConfig[/root/.gitconfig]
+03:45:22.290 DEBUG: Git submodule [jenkins_data/workspace/test_app] found, but has not been cloned, skipping.
+03:45:22.295 DEBUG: 107 non excluded files in this Git repository
+03:45:22.315 DEBUG: 'Dockerfile' indexed with language 'docker'
+03:45:22.325 DEBUG: 'app.py' indexed with language 'py'
+03:45:22.330 DEBUG: 'reports/235b1a06-6317-4462-9015-613cc7d4fb18-container.json' indexed with language 'json'
+03:45:22.334 DEBUG: 'reports/bcf7bb05-8f4a-44c6-94ea-de32681305e6-result.json' indexed with language 'json'
+03:45:22.337 DEBUG: 'reports/e4992f85-3250-4dd5-a1c4-251a462fe184-result.json' indexed with language 'json'
+03:45:22.339 DEBUG: 'reports/executor.json' indexed with language 'json'
+03:45:22.342 DEBUG: 'reports/history/categories-trend.json' indexed with language 'json'
+03:45:22.344 DEBUG: 'reports/history/duration-trend.json' indexed with language 'json'
+03:45:22.345 DEBUG: 'reports/history/history-trend.json' indexed with language 'json'
+03:45:22.355 DEBUG: 'reports/history/history.json' indexed with language 'json'
+03:45:22.360 DEBUG: 'reports/history/retry-trend.json' indexed with language 'json'
+03:45:22.365 DEBUG: 'reports/reports/0de7b51f-c235-467d-b3db-bd7988aaaaae-container.json' indexed with language 'json'
+03:45:22.367 DEBUG: 'reports/reports/20ab37c1-7348-4c91-98c8-9aa66a41814e-container.json' indexed with language 'json'
+03:45:22.369 DEBUG: 'reports/reports/235b1a06-6317-4462-9015-613cc7d4fb18-container.json' indexed with language 'json'
+03:45:22.373 DEBUG: 'reports/reports/3e0bafa1-16d3-4c64-b554-591f68a75af0-result.json' indexed with language 'json'
+03:45:22.376 DEBUG: 'reports/reports/6f1250d4-5f68-4b7f-ac1c-ff44032c371c-result.json' indexed with language 'json'
+03:45:22.378 DEBUG: 'reports/reports/87cad48b-f949-452a-a27b-7c7901b8d9c3-container.json' indexed with language 'json'
+03:45:22.381 DEBUG: 'reports/reports/881775c8-dae0-443e-b54e-bccb918c231e-result.json' indexed with language 'json'
+03:45:22.383 DEBUG: 'reports/reports/9afe5c59-01b9-4792-adcc-839d2d0cd124-result.json' indexed with language 'json'
+03:45:22.385 DEBUG: 'reports/reports/a23b4338-16e5-4f24-ab6d-dc1da73b65e1-result.json' indexed with language 'json'
+03:45:22.387 DEBUG: 'reports/reports/b2e96045-3a6b-403f-85c9-336bf162bb82-container.json' indexed with language 'json'
+03:45:22.389 DEBUG: 'reports/reports/bcf7bb05-8f4a-44c6-94ea-de32681305e6-result.json' indexed with language 'json'
+03:45:22.391 DEBUG: 'reports/reports/bf7cea25-b02c-4760-b704-12de644f64ba-result.json' indexed with language 'json'
+03:45:22.392 DEBUG: 'reports/reports/c816e014-3a48-4af5-9c39-5a40e4e14f0d-result.json' indexed with language 'json'
+03:45:22.394 DEBUG: 'reports/reports/d40549f2-cfc5-4c39-a2b7-a1ad78a553c1-result.json' indexed with language 'json'
+03:45:22.396 DEBUG: 'reports/reports/e4992f85-3250-4dd5-a1c4-251a462fe184-result.json' indexed with language 'json'
+03:45:22.397 DEBUG: 'reports/reports/e86d9837-dbad-411b-835f-6dc806b464ef-container.json' indexed with language 'json'
+03:45:22.399 DEBUG: 'reports/reports/e8db291a-103d-437b-93bb-ad6f494d0dc2-result.json' indexed with language 'json'
+03:45:22.400 DEBUG: 'reports/reports/executor.json' indexed with language 'json'
+03:45:22.402 DEBUG: 'reports/reports/f0316be1-9c9d-4dea-9ba4-d9fdac41647d-result.json' indexed with language 'json'
+03:45:22.405 DEBUG: 'reports/reports/history/categories-trend.json' indexed with language 'json'
+03:45:22.407 DEBUG: 'reports/reports/history/duration-trend.json' indexed with language 'json'
+03:45:22.415 DEBUG: 'reports/reports/history/history-trend.json' indexed with language 'json'
+03:45:22.417 DEBUG: 'reports/reports/history/history.json' indexed with language 'json'
+03:45:22.418 DEBUG: 'reports/reports/history/retry-trend.json' indexed with language 'json'
+03:45:22.421 DEBUG: 'reports/reports/reports/20ab37c1-7348-4c91-98c8-9aa66a41814e-container.json' indexed with language 'json'
+03:45:22.433 DEBUG: 'reports/reports/reports/235b1a06-6317-4462-9015-613cc7d4fb18-container.json' indexed with language 'json'
+03:45:22.436 DEBUG: 'reports/reports/reports/3e0bafa1-16d3-4c64-b554-591f68a75af0-result.json' indexed with language 'json'
+03:45:22.437 DEBUG: 'reports/reports/reports/87cad48b-f949-452a-a27b-7c7901b8d9c3-container.json' indexed with language 'json'
+03:45:22.439 DEBUG: 'reports/reports/reports/881775c8-dae0-443e-b54e-bccb918c231e-result.json' indexed with language 'json'
+03:45:22.442 DEBUG: 'reports/reports/reports/9afe5c59-01b9-4792-adcc-839d2d0cd124-result.json' indexed with language 'json'
+03:45:22.444 DEBUG: 'reports/reports/reports/b2e96045-3a6b-403f-85c9-336bf162bb82-container.json' indexed with language 'json'
+03:45:22.445 DEBUG: 'reports/reports/reports/bcf7bb05-8f4a-44c6-94ea-de32681305e6-result.json' indexed with language 'json'
+03:45:22.447 DEBUG: 'reports/reports/reports/bf7cea25-b02c-4760-b704-12de644f64ba-result.json' indexed with language 'json'
+03:45:22.448 DEBUG: 'reports/reports/reports/c816e014-3a48-4af5-9c39-5a40e4e14f0d-result.json' indexed with language 'json'
+03:45:22.450 DEBUG: 'reports/reports/reports/d40549f2-cfc5-4c39-a2b7-a1ad78a553c1-result.json' indexed with language 'json'
+03:45:22.453 DEBUG: 'reports/reports/reports/e4992f85-3250-4dd5-a1c4-251a462fe184-result.json' indexed with language 'json'
+03:45:22.454 DEBUG: 'reports/reports/reports/e86d9837-dbad-411b-835f-6dc806b464ef-container.json' indexed with language 'json'
+03:45:22.456 DEBUG: 'reports/reports/reports/e8db291a-103d-437b-93bb-ad6f494d0dc2-result.json' indexed with language 'json'
+03:45:22.457 DEBUG: 'reports/reports/reports/executor.json' indexed with language 'json'
+03:45:22.458 DEBUG: 'reports/reports/reports/f0316be1-9c9d-4dea-9ba4-d9fdac41647d-result.json' indexed with language 'json'
+03:45:22.462 DEBUG: 'reports/reports/reports/history/categories-trend.json' indexed with language 'json'
+03:45:22.464 DEBUG: 'reports/reports/reports/history/duration-trend.json' indexed with language 'json'
+03:45:22.470 DEBUG: 'reports/reports/reports/history/history-trend.json' indexed with language 'json'
+03:45:22.479 DEBUG: 'reports/reports/reports/history/history.json' indexed with language 'json'
+03:45:22.482 DEBUG: 'reports/reports/reports/history/retry-trend.json' indexed with language 'json'
+03:45:22.486 DEBUG: 'reports/reports/reports/reports/20ab37c1-7348-4c91-98c8-9aa66a41814e-container.json' indexed with language 'json'
+03:45:22.491 DEBUG: 'reports/reports/reports/reports/235b1a06-6317-4462-9015-613cc7d4fb18-container.json' indexed with language 'json'
+03:45:22.497 DEBUG: 'reports/reports/reports/reports/87cad48b-f949-452a-a27b-7c7901b8d9c3-container.json' indexed with language 'json'
+03:45:22.499 DEBUG: 'reports/reports/reports/reports/9afe5c59-01b9-4792-adcc-839d2d0cd124-result.json' indexed with language 'json'
+03:45:22.500 DEBUG: 'reports/reports/reports/reports/b2e96045-3a6b-403f-85c9-336bf162bb82-container.json' indexed with language 'json'
+03:45:22.504 DEBUG: 'reports/reports/reports/reports/bcf7bb05-8f4a-44c6-94ea-de32681305e6-result.json' indexed with language 'json'
+03:45:22.506 DEBUG: 'reports/reports/reports/reports/bf7cea25-b02c-4760-b704-12de644f64ba-result.json' indexed with language 'json'
+03:45:22.508 DEBUG: 'reports/reports/reports/reports/c816e014-3a48-4af5-9c39-5a40e4e14f0d-result.json' indexed with language 'json'
+03:45:22.510 DEBUG: 'reports/reports/reports/reports/d40549f2-cfc5-4c39-a2b7-a1ad78a553c1-result.json' indexed with language 'json'
+03:45:22.512 DEBUG: 'reports/reports/reports/reports/e4992f85-3250-4dd5-a1c4-251a462fe184-result.json' indexed with language 'json'
+03:45:22.513 DEBUG: 'reports/reports/reports/reports/e8db291a-103d-437b-93bb-ad6f494d0dc2-result.json' indexed with language 'json'
+03:45:22.515 DEBUG: 'reports/reports/reports/reports/executor.json' indexed with language 'json'
+03:45:22.516 DEBUG: 'reports/reports/reports/reports/f0316be1-9c9d-4dea-9ba4-d9fdac41647d-result.json' indexed with language 'json'
+03:45:22.519 DEBUG: 'reports/reports/reports/reports/history/categories-trend.json' indexed with language 'json'
+03:45:22.522 DEBUG: 'reports/reports/reports/reports/history/duration-trend.json' indexed with language 'json'
+03:45:22.523 DEBUG: 'reports/reports/reports/reports/history/history-trend.json' indexed with language 'json'
+03:45:22.525 DEBUG: 'reports/reports/reports/reports/history/history.json' indexed with language 'json'
+03:45:22.526 DEBUG: 'reports/reports/reports/reports/history/retry-trend.json' indexed with language 'json'
+03:45:22.530 DEBUG: 'reports/reports/reports/reports/reports/20ab37c1-7348-4c91-98c8-9aa66a41814e-container.json' indexed with language 'json'
+03:45:22.539 DEBUG: 'reports/reports/reports/reports/reports/235b1a06-6317-4462-9015-613cc7d4fb18-container.json' indexed with language 'json'
+03:45:22.541 DEBUG: 'reports/reports/reports/reports/reports/87cad48b-f949-452a-a27b-7c7901b8d9c3-container.json' indexed with language 'json'
+03:45:22.543 DEBUG: 'reports/reports/reports/reports/reports/bcf7bb05-8f4a-44c6-94ea-de32681305e6-result.json' indexed with language 'json'
+03:45:22.545 DEBUG: 'reports/reports/reports/reports/reports/bf7cea25-b02c-4760-b704-12de644f64ba-result.json' indexed with language 'json'
+03:45:22.548 DEBUG: 'reports/reports/reports/reports/reports/c816e014-3a48-4af5-9c39-5a40e4e14f0d-result.json' indexed with language 'json'
+03:45:22.549 DEBUG: 'reports/reports/reports/reports/reports/e4992f85-3250-4dd5-a1c4-251a462fe184-result.json' indexed with language 'json'
+03:45:22.551 DEBUG: 'reports/reports/reports/reports/reports/e8db291a-103d-437b-93bb-ad6f494d0dc2-result.json' indexed with language 'json'
+03:45:22.553 DEBUG: 'reports/reports/reports/reports/reports/executor.json' indexed with language 'json'
+03:45:22.558 DEBUG: 'reports/reports/reports/reports/reports/f0316be1-9c9d-4dea-9ba4-d9fdac41647d-result.json' indexed with language 'json'
+03:45:22.563 DEBUG: 'reports/reports/reports/reports/reports/history/categories-trend.json' indexed with language 'json'
+03:45:22.567 DEBUG: 'reports/reports/reports/reports/reports/history/duration-trend.json' indexed with language 'json'
+03:45:22.568 DEBUG: 'reports/reports/reports/reports/reports/history/history-trend.json' indexed with language 'json'
+03:45:22.570 DEBUG: 'reports/reports/reports/reports/reports/history/history.json' indexed with language 'json'
+03:45:22.575 DEBUG: 'reports/reports/reports/reports/reports/history/retry-trend.json' indexed with language 'json'
+03:45:22.581 DEBUG: 'reports/reports/reports/reports/reports/reports/235b1a06-6317-4462-9015-613cc7d4fb18-container.json' indexed with language 'json'
+03:45:22.584 DEBUG: 'reports/reports/reports/reports/reports/reports/87cad48b-f949-452a-a27b-7c7901b8d9c3-container.json' indexed with language 'json'
+03:45:22.586 DEBUG: 'reports/reports/reports/reports/reports/reports/bcf7bb05-8f4a-44c6-94ea-de32681305e6-result.json' indexed with language 'json'
+03:45:22.588 DEBUG: 'reports/reports/reports/reports/reports/reports/c816e014-3a48-4af5-9c39-5a40e4e14f0d-result.json' indexed with language 'json'
+03:45:22.592 DEBUG: 'reports/reports/reports/reports/reports/reports/e4992f85-3250-4dd5-a1c4-251a462fe184-result.json' indexed with language 'json'
+03:45:22.595 DEBUG: 'reports/reports/reports/reports/reports/reports/e8db291a-103d-437b-93bb-ad6f494d0dc2-result.json' indexed with language 'json'
+03:45:22.596 DEBUG: 'reports/reports/reports/reports/reports/reports/executor.json' indexed with language 'json'
+03:45:22.598 DEBUG: 'reports/reports/reports/reports/reports/reports/testrun.json' indexed with language 'json'
+03:45:22.600 DEBUG: 'reports/reports/reports/reports/reports/testrun.json' indexed with language 'json'
+03:45:22.608 DEBUG: 'reports/reports/reports/reports/testrun.json' indexed with language 'json'
+03:45:22.611 DEBUG: 'reports/reports/reports/testrun.json' indexed with language 'json'
+03:45:22.613 DEBUG: 'reports/reports/testrun.json' indexed with language 'json'
+03:45:22.614 DEBUG: 'reports/testrun.json' indexed with language 'json'
+03:45:22.616 DEBUG: 'requirements.txt' indexed with no language
+03:45:22.618 DEBUG: 'test_main.py' indexed with language 'py'
+03:45:22.622 INFO: 104 files indexed
+03:45:22.624 INFO: 0 files ignored because of scm ignore settings
+03:45:22.631 INFO: Quality profile for docker: Sonar way
+03:45:22.632 INFO: Quality profile for json: Sonar way
+03:45:22.633 INFO: Quality profile for py: Sonar way
+03:45:22.637 INFO: ------------- Run sensors on module sonar_test_app
+03:45:22.729 INFO: Load metrics repository
+03:45:22.834 DEBUG: GET 200 https://da32-188-244-13-153.ngrok-free.app/api/metrics/search?ps=500&p=1 | time=102ms
+03:45:22.847 INFO: Load metrics repository (done) | time=118ms
+03:45:24.326 DEBUG: Added 280 checks for language='ts', repository='typescript'
+03:45:24.330 DEBUG: Added 280 checks for language='js', repository='javascript'
+03:45:25.054 DEBUG: 'JavaSensor' skipped because there is no related file in current project
+03:45:25.057 DEBUG: 'Import external issues report' skipped because one of the required properties is missing
+03:45:25.060 DEBUG: 'Import of Pylint issues' skipped because one of the required properties is missing
+03:45:25.062 DEBUG: 'Import of Bandit issues' skipped because one of the required properties is missing
+03:45:25.065 DEBUG: 'Import of Flake8 issues' skipped because one of the required properties is missing
+03:45:25.066 DEBUG: 'Import of Mypy issues' skipped because one of the required properties is missing
+03:45:25.068 DEBUG: 'Import of Ruff issues' skipped because one of the required properties is missing
+03:45:25.069 DEBUG: 'Code Quality and Security for Go' skipped because there is no related file in current project
+03:45:25.071 DEBUG: 'Go Unit Test Report' skipped because there is no related file in current project
+03:45:25.072 DEBUG: 'Go Cover sensor for Go coverage' skipped because there is no related file in current project
+03:45:25.074 DEBUG: 'Import of go vet issues' skipped because there is no related file in current project
+03:45:25.075 DEBUG: 'Import of Golint issues' skipped because there is no related file in current project
+03:45:25.085 DEBUG: 'Import of GoMetaLinter issues' skipped because there is no related file in current project
+03:45:25.086 DEBUG: 'Import of GolangCI-Lint issues' skipped because there is no related file in current project
+03:45:25.087 DEBUG: 'Kotlin Sensor' skipped because there is no related file in current project
+03:45:25.089 DEBUG: 'KotlinSurefireSensor' skipped because there is no related file in current project
+03:45:25.090 DEBUG: 'Import of detekt issues' skipped because there is no related file in current project
+03:45:25.098 DEBUG: 'Import of Android Lint issues' skipped because one of the required properties is missing
+03:45:25.100 DEBUG: 'Import of ktlint issues' skipped because there is no related file in current project
+03:45:25.101 DEBUG: 'IaC Terraform Sensor' skipped because there is no related file in current project
+03:45:25.102 DEBUG: 'IaC Kubernetes Sensor' skipped because there is no related file in current project
+03:45:25.106 DEBUG: 'JavaScript/TypeScript analysis' skipped because there is no related file in current project
+03:45:25.107 DEBUG: 'JavaScript inside YAML analysis' skipped because there is no related file in current project
+03:45:25.108 DEBUG: 'JavaScript inside HTML analysis' skipped because there is no related file in current project
+03:45:25.110 DEBUG: 'JavaScript/TypeScript Coverage' skipped because there is no related file in current project
+03:45:25.115 DEBUG: 'Import of ESLint issues' skipped because one of the required properties is missing
+03:45:25.116 DEBUG: 'Import of TSLint issues' skipped because one of the required properties is missing
+03:45:25.118 DEBUG: 'CSS Metrics' skipped because there is no related file in current project
+03:45:25.119 DEBUG: 'Import of stylelint issues' skipped because one of the required properties is missing
+03:45:25.120 DEBUG: 'Ruby Sensor' skipped because there is no related file in current project
+03:45:25.123 DEBUG: 'Import of RuboCop issues' skipped because there is no related file in current project
+03:45:25.125 DEBUG: 'SimpleCov Sensor for Ruby coverage' skipped because there is no related file in current project
+03:45:25.127 DEBUG: 'Scala Sensor' skipped because there is no related file in current project
+03:45:25.128 DEBUG: 'Scoverage sensor for Scala coverage' skipped because there is no related file in current project
+03:45:25.130 DEBUG: 'Import of Scalastyle issues' skipped because there is no related file in current project
+03:45:25.131 DEBUG: 'Import of Scapegoat issues' skipped because there is no related file in current project
+03:45:25.133 DEBUG: 'Import of Checkstyle issues' skipped because there is no related file in current project
+03:45:25.135 DEBUG: 'Import of PMD issues' skipped because there is no related file in current project
+03:45:25.136 DEBUG: 'Import of SpotBugs issues' skipped because there is no related file in current project
+03:45:25.137 DEBUG: 'SurefireSensor' skipped because there is no related file in current project
+03:45:25.138 DEBUG: 'Removed properties sensor' skipped because there is no related file in current project
+03:45:25.140 DEBUG: 'Flex' skipped because there is no related file in current project
+03:45:25.141 DEBUG: 'Flex Cobertura' skipped because there is no related file in current project
+03:45:25.142 DEBUG: 'XML Sensor' skipped because there is no related file in current project
+03:45:25.143 DEBUG: 'PHP sensor' skipped because there is no related file in current project
+03:45:25.144 DEBUG: 'Analyzer for "php.ini" files' skipped because there is no related file in current project
+03:45:25.146 DEBUG: 'PHPUnit report sensor' skipped because there is no related file in current project
+03:45:25.148 DEBUG: 'Import of PHPStan issues' skipped because there is no related file in current project
+03:45:25.157 DEBUG: 'Import of Psalm issues' skipped because there is no related file in current project
+03:45:25.161 DEBUG: 'Generic Test Executions Report' skipped because one of the required properties is missing
+03:45:25.163 DEBUG: Sensors : Python Sensor -> Cobertura Sensor for Python coverage -> PythonXUnitSensor -> JaCoCo XML Report Importer -> IaC CloudFormation Sensor -> IaC AzureResourceManager Sensor -> CSS Rules -> C# Project Type Information -> C# Analysis Log -> C# Properties -> HTML -> TextAndSecretsSensor -> VB.NET Project Type Information -> VB.NET Analysis Log -> VB.NET Properties -> IaC Docker Sensor
+03:45:25.165 INFO: Sensor Python Sensor [python]
+03:45:25.174 WARN: Your code is analyzed as compatible with all Python 3 versions by default. You can get a more precise analysis by setting the exact Python version in your configuration via the parameter "sonar.python.version"
+03:45:25.191 DEBUG: Input files for indexing: [app.py, test_main.py]
+03:45:25.193 INFO: Starting global symbols computation
+03:45:25.202 INFO: 2 source files to be analyzed
+03:45:25.206 DEBUG: 'app.py' generated metadata with charset 'UTF-8'
+03:45:25.429 DEBUG: 'test_main.py' generated metadata with charset 'UTF-8'
+03:45:25.464 INFO: 2/2 source files have been analyzed
+03:45:25.499 INFO: Starting rules execution
+03:45:25.501 INFO: 2 source files to be analyzed
+03:45:25.522 DEBUG: Not enough content in 'app.py' to have CPD blocks, it will not be part of the duplication detection
+03:45:25.805 INFO: 2/2 source files have been analyzed
+03:45:25.808 INFO: The Python analyzer was able to leverage cached data from previous analyses for 0 out of 2 files. These files were not parsed.
+03:45:25.809 INFO: Sensor Python Sensor [python] (done) | time=644ms
+03:45:25.810 INFO: Sensor Cobertura Sensor for Python coverage [python]
+03:45:25.811 DEBUG: Using pattern 'coverage-reports/*coverage-*.xml' to find reports
+03:45:25.847 DEBUG: No report was found for sonar.python.coverage.reportPaths using default pattern coverage-reports/*coverage-*.xml
+03:45:25.849 INFO: Sensor Cobertura Sensor for Python coverage [python] (done) | time=39ms
+03:45:25.850 INFO: Sensor PythonXUnitSensor [python]
+03:45:25.851 DEBUG: Using pattern 'xunit-reports/xunit-result-*.xml' to find reports
+03:45:25.871 DEBUG: No report was found for sonar.python.xunit.reportPath using default pattern xunit-reports/xunit-result-*.xml
+03:45:25.872 INFO: Sensor PythonXUnitSensor [python] (done) | time=22ms
+03:45:25.873 INFO: Sensor JaCoCo XML Report Importer [jacoco]
+03:45:25.875 INFO: 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+03:45:25.881 INFO: No report imported, no coverage information will be imported by JaCoCo XML Report Importer
+03:45:25.882 INFO: Sensor JaCoCo XML Report Importer [jacoco] (done) | time=9ms
+03:45:25.883 INFO: Sensor IaC CloudFormation Sensor [iac]
+03:45:25.890 DEBUG: 'reports/235b1a06-6317-4462-9015-613cc7d4fb18-container.json' generated metadata with charset 'UTF-8'
+03:45:25.891 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/235b1a06-6317-4462-9015-613cc7d4fb18-container.json
+03:45:25.904 DEBUG: 'reports/reports/c816e014-3a48-4af5-9c39-5a40e4e14f0d-result.json' generated metadata with charset 'UTF-8'
+03:45:25.906 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/c816e014-3a48-4af5-9c39-5a40e4e14f0d-result.json
+03:45:25.913 DEBUG: 'reports/reports/history/duration-trend.json' generated metadata with charset 'UTF-8'
+03:45:25.915 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/history/duration-trend.json
+03:45:25.924 DEBUG: 'reports/reports/reports/history/history.json' generated metadata with charset 'UTF-8'
+03:45:25.928 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/history/history.json
+03:45:25.933 DEBUG: 'reports/reports/f0316be1-9c9d-4dea-9ba4-d9fdac41647d-result.json' generated metadata with charset 'UTF-8'
+03:45:25.934 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/f0316be1-9c9d-4dea-9ba4-d9fdac41647d-result.json
+03:45:25.940 DEBUG: 'reports/reports/reports/history/retry-trend.json' generated metadata with charset 'UTF-8'
+03:45:25.942 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/history/retry-trend.json
+03:45:25.949 DEBUG: 'reports/reports/reports/reports/executor.json' generated metadata with charset 'UTF-8'
+03:45:25.950 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/executor.json
+03:45:25.965 DEBUG: 'reports/reports/reports/d40549f2-cfc5-4c39-a2b7-a1ad78a553c1-result.json' generated metadata with charset 'UTF-8'
+03:45:25.966 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/d40549f2-cfc5-4c39-a2b7-a1ad78a553c1-result.json
+03:45:25.976 DEBUG: 'reports/reports/executor.json' generated metadata with charset 'UTF-8'
+03:45:25.978 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/executor.json
+03:45:25.985 DEBUG: 'reports/executor.json' generated metadata with charset 'UTF-8'
+03:45:25.986 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/executor.json
+03:45:25.991 DEBUG: 'reports/reports/9afe5c59-01b9-4792-adcc-839d2d0cd124-result.json' generated metadata with charset 'UTF-8'
+03:45:25.993 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/9afe5c59-01b9-4792-adcc-839d2d0cd124-result.json
+03:45:25.998 DEBUG: 'reports/history/categories-trend.json' generated metadata with charset 'UTF-8'
+03:45:26.000 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/history/categories-trend.json
+03:45:26.007 DEBUG: 'reports/reports/0de7b51f-c235-467d-b3db-bd7988aaaaae-container.json' generated metadata with charset 'UTF-8'
+03:45:26.008 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/0de7b51f-c235-467d-b3db-bd7988aaaaae-container.json
+03:45:26.015 DEBUG: 'reports/reports/reports/9afe5c59-01b9-4792-adcc-839d2d0cd124-result.json' generated metadata with charset 'UTF-8'
+03:45:26.016 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/9afe5c59-01b9-4792-adcc-839d2d0cd124-result.json
+03:45:26.029 DEBUG: 'reports/reports/reports/e4992f85-3250-4dd5-a1c4-251a462fe184-result.json' generated metadata with charset 'UTF-8'
+03:45:26.031 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/e4992f85-3250-4dd5-a1c4-251a462fe184-result.json
+03:45:26.039 DEBUG: 'reports/reports/e4992f85-3250-4dd5-a1c4-251a462fe184-result.json' generated metadata with charset 'UTF-8'
+03:45:26.041 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/e4992f85-3250-4dd5-a1c4-251a462fe184-result.json
+03:45:26.052 DEBUG: 'reports/reports/reports/reports/reports/20ab37c1-7348-4c91-98c8-9aa66a41814e-container.json' generated metadata with charset 'UTF-8'
+03:45:26.055 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/20ab37c1-7348-4c91-98c8-9aa66a41814e-container.json
+03:45:26.063 DEBUG: 'reports/reports/reports/reports/87cad48b-f949-452a-a27b-7c7901b8d9c3-container.json' generated metadata with charset 'UTF-8'
+03:45:26.065 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/87cad48b-f949-452a-a27b-7c7901b8d9c3-container.json
+03:45:26.072 DEBUG: 'reports/reports/reports/c816e014-3a48-4af5-9c39-5a40e4e14f0d-result.json' generated metadata with charset 'UTF-8'
+03:45:26.073 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/c816e014-3a48-4af5-9c39-5a40e4e14f0d-result.json
+03:45:26.080 DEBUG: 'reports/reports/reports/reports/reports/history/retry-trend.json' generated metadata with charset 'UTF-8'
+03:45:26.082 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/history/retry-trend.json
+03:45:26.096 DEBUG: 'reports/reports/reports/reports/reports/e8db291a-103d-437b-93bb-ad6f494d0dc2-result.json' generated metadata with charset 'UTF-8'
+03:45:26.099 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/e8db291a-103d-437b-93bb-ad6f494d0dc2-result.json
+03:45:26.111 DEBUG: 'reports/reports/history/categories-trend.json' generated metadata with charset 'UTF-8'
+03:45:26.113 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/history/categories-trend.json
+03:45:26.122 DEBUG: 'reports/testrun.json' generated metadata with charset 'UTF-8'
+03:45:26.124 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/testrun.json
+03:45:26.131 DEBUG: 'reports/reports/reports/reports/reports/testrun.json' generated metadata with charset 'UTF-8'
+03:45:26.132 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/testrun.json
+03:45:26.140 DEBUG: 'reports/reports/reports/reports/reports/f0316be1-9c9d-4dea-9ba4-d9fdac41647d-result.json' generated metadata with charset 'UTF-8'
+03:45:26.141 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/f0316be1-9c9d-4dea-9ba4-d9fdac41647d-result.json
+03:45:26.148 DEBUG: 'reports/reports/reports/235b1a06-6317-4462-9015-613cc7d4fb18-container.json' generated metadata with charset 'UTF-8'
+03:45:26.155 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/235b1a06-6317-4462-9015-613cc7d4fb18-container.json
+03:45:26.163 DEBUG: 'reports/reports/history/history.json' generated metadata with charset 'UTF-8'
+03:45:26.165 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/history/history.json
+03:45:26.173 DEBUG: 'reports/reports/history/retry-trend.json' generated metadata with charset 'UTF-8'
+03:45:26.174 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/history/retry-trend.json
+03:45:26.183 DEBUG: 'reports/reports/reports/executor.json' generated metadata with charset 'UTF-8'
+03:45:26.184 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/executor.json
+03:45:26.190 DEBUG: 'reports/reports/reports/reports/reports/reports/e8db291a-103d-437b-93bb-ad6f494d0dc2-result.json' generated metadata with charset 'UTF-8'
+03:45:26.191 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/reports/e8db291a-103d-437b-93bb-ad6f494d0dc2-result.json
+03:45:26.198 DEBUG: 'reports/reports/reports/reports/reports/history/history.json' generated metadata with charset 'UTF-8'
+03:45:26.200 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/history/history.json
+03:45:26.207 DEBUG: 'reports/reports/reports/reports/reports/executor.json' generated metadata with charset 'UTF-8'
+03:45:26.208 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/executor.json
+03:45:26.225 DEBUG: 'reports/reports/reports/reports/reports/reports/testrun.json' generated metadata with charset 'UTF-8'
+03:45:26.226 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/reports/testrun.json
+03:45:26.232 DEBUG: 'reports/reports/e86d9837-dbad-411b-835f-6dc806b464ef-container.json' generated metadata with charset 'UTF-8'
+03:45:26.234 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/e86d9837-dbad-411b-835f-6dc806b464ef-container.json
+03:45:26.243 DEBUG: 'reports/reports/reports/reports/reports/c816e014-3a48-4af5-9c39-5a40e4e14f0d-result.json' generated metadata with charset 'UTF-8'
+03:45:26.245 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/c816e014-3a48-4af5-9c39-5a40e4e14f0d-result.json
+03:45:26.252 DEBUG: 'reports/reports/reports/reports/history/history.json' generated metadata with charset 'UTF-8'
+03:45:26.254 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/history/history.json
+03:45:26.261 DEBUG: 'reports/reports/reports/881775c8-dae0-443e-b54e-bccb918c231e-result.json' generated metadata with charset 'UTF-8'
+03:45:26.262 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/881775c8-dae0-443e-b54e-bccb918c231e-result.json
+03:45:26.268 DEBUG: 'reports/reports/reports/reports/235b1a06-6317-4462-9015-613cc7d4fb18-container.json' generated metadata with charset 'UTF-8'
+03:45:26.270 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/235b1a06-6317-4462-9015-613cc7d4fb18-container.json
+03:45:26.276 DEBUG: 'reports/reports/reports/reports/reports/235b1a06-6317-4462-9015-613cc7d4fb18-container.json' generated metadata with charset 'UTF-8'
+03:45:26.285 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/235b1a06-6317-4462-9015-613cc7d4fb18-container.json
+03:45:26.289 DEBUG: 'reports/history/history.json' generated metadata with charset 'UTF-8'
+03:45:26.290 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/history/history.json
+03:45:26.295 DEBUG: 'reports/bcf7bb05-8f4a-44c6-94ea-de32681305e6-result.json' generated metadata with charset 'UTF-8'
+03:45:26.297 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/bcf7bb05-8f4a-44c6-94ea-de32681305e6-result.json
+03:45:26.307 DEBUG: 'reports/reports/reports/reports/history/history-trend.json' generated metadata with charset 'UTF-8'
+03:45:26.308 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/history/history-trend.json
+03:45:26.317 DEBUG: 'reports/reports/reports/87cad48b-f949-452a-a27b-7c7901b8d9c3-container.json' generated metadata with charset 'UTF-8'
+03:45:26.318 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/87cad48b-f949-452a-a27b-7c7901b8d9c3-container.json
+03:45:26.324 DEBUG: 'reports/reports/bcf7bb05-8f4a-44c6-94ea-de32681305e6-result.json' generated metadata with charset 'UTF-8'
+03:45:26.325 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/bcf7bb05-8f4a-44c6-94ea-de32681305e6-result.json
+03:45:26.331 DEBUG: 'reports/reports/reports/reports/reports/87cad48b-f949-452a-a27b-7c7901b8d9c3-container.json' generated metadata with charset 'UTF-8'
+03:45:26.332 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/87cad48b-f949-452a-a27b-7c7901b8d9c3-container.json
+03:45:26.337 DEBUG: 'reports/reports/bf7cea25-b02c-4760-b704-12de644f64ba-result.json' generated metadata with charset 'UTF-8'
+03:45:26.339 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/bf7cea25-b02c-4760-b704-12de644f64ba-result.json
+03:45:26.353 DEBUG: 'reports/reports/reports/reports/reports/e4992f85-3250-4dd5-a1c4-251a462fe184-result.json' generated metadata with charset 'UTF-8'
+03:45:26.355 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/e4992f85-3250-4dd5-a1c4-251a462fe184-result.json
+03:45:26.365 DEBUG: 'reports/reports/reports/reports/reports/reports/235b1a06-6317-4462-9015-613cc7d4fb18-container.json' generated metadata with charset 'UTF-8'
+03:45:26.366 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/reports/235b1a06-6317-4462-9015-613cc7d4fb18-container.json
+03:45:26.376 DEBUG: 'reports/reports/reports/reports/reports/reports/bcf7bb05-8f4a-44c6-94ea-de32681305e6-result.json' generated metadata with charset 'UTF-8'
+03:45:26.381 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/reports/bcf7bb05-8f4a-44c6-94ea-de32681305e6-result.json
+03:45:26.385 DEBUG: 'reports/reports/e8db291a-103d-437b-93bb-ad6f494d0dc2-result.json' generated metadata with charset 'UTF-8'
+03:45:26.386 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/e8db291a-103d-437b-93bb-ad6f494d0dc2-result.json
+03:45:26.393 DEBUG: 'reports/reports/reports/b2e96045-3a6b-403f-85c9-336bf162bb82-container.json' generated metadata with charset 'UTF-8'
+03:45:26.394 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/b2e96045-3a6b-403f-85c9-336bf162bb82-container.json
+03:45:26.400 DEBUG: 'reports/reports/reports/history/duration-trend.json' generated metadata with charset 'UTF-8'
+03:45:26.402 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/history/duration-trend.json
+03:45:26.416 DEBUG: 'reports/reports/reports/reports/e4992f85-3250-4dd5-a1c4-251a462fe184-result.json' generated metadata with charset 'UTF-8'
+03:45:26.418 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/e4992f85-3250-4dd5-a1c4-251a462fe184-result.json
+03:45:26.425 DEBUG: 'reports/reports/testrun.json' generated metadata with charset 'UTF-8'
+03:45:26.427 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/testrun.json
+03:45:26.437 DEBUG: 'reports/reports/reports/20ab37c1-7348-4c91-98c8-9aa66a41814e-container.json' generated metadata with charset 'UTF-8'
+03:45:26.438 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/20ab37c1-7348-4c91-98c8-9aa66a41814e-container.json
+03:45:26.444 DEBUG: 'reports/history/retry-trend.json' generated metadata with charset 'UTF-8'
+03:45:26.445 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/history/retry-trend.json
+03:45:26.450 DEBUG: 'reports/reports/20ab37c1-7348-4c91-98c8-9aa66a41814e-container.json' generated metadata with charset 'UTF-8'
+03:45:26.451 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/20ab37c1-7348-4c91-98c8-9aa66a41814e-container.json
+03:45:26.458 DEBUG: 'reports/reports/reports/reports/reports/history/duration-trend.json' generated metadata with charset 'UTF-8'
+03:45:26.459 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/history/duration-trend.json
+03:45:26.462 DEBUG: 'reports/e4992f85-3250-4dd5-a1c4-251a462fe184-result.json' generated metadata with charset 'UTF-8'
+03:45:26.464 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/e4992f85-3250-4dd5-a1c4-251a462fe184-result.json
+03:45:26.469 DEBUG: 'reports/reports/reports/reports/reports/reports/e4992f85-3250-4dd5-a1c4-251a462fe184-result.json' generated metadata with charset 'UTF-8'
+03:45:26.471 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/reports/e4992f85-3250-4dd5-a1c4-251a462fe184-result.json
+03:45:26.485 DEBUG: 'reports/reports/reports/reports/d40549f2-cfc5-4c39-a2b7-a1ad78a553c1-result.json' generated metadata with charset 'UTF-8'
+03:45:26.487 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/d40549f2-cfc5-4c39-a2b7-a1ad78a553c1-result.json
+03:45:26.496 DEBUG: 'reports/reports/reports/reports/testrun.json' generated metadata with charset 'UTF-8'
+03:45:26.497 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/testrun.json
+03:45:26.505 DEBUG: 'reports/reports/reports/reports/reports/reports/c816e014-3a48-4af5-9c39-5a40e4e14f0d-result.json' generated metadata with charset 'UTF-8'
+03:45:26.509 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/reports/c816e014-3a48-4af5-9c39-5a40e4e14f0d-result.json
+03:45:26.516 DEBUG: 'reports/reports/reports/reports/c816e014-3a48-4af5-9c39-5a40e4e14f0d-result.json' generated metadata with charset 'UTF-8'
+03:45:26.518 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/c816e014-3a48-4af5-9c39-5a40e4e14f0d-result.json
+03:45:26.523 DEBUG: 'reports/reports/reports/reports/reports/reports/87cad48b-f949-452a-a27b-7c7901b8d9c3-container.json' generated metadata with charset 'UTF-8'
+03:45:26.525 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/reports/87cad48b-f949-452a-a27b-7c7901b8d9c3-container.json
+03:45:26.533 DEBUG: 'reports/reports/reports/reports/f0316be1-9c9d-4dea-9ba4-d9fdac41647d-result.json' generated metadata with charset 'UTF-8'
+03:45:26.534 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/f0316be1-9c9d-4dea-9ba4-d9fdac41647d-result.json
+03:45:26.549 DEBUG: 'reports/reports/reports/history/categories-trend.json' generated metadata with charset 'UTF-8'
+03:45:26.551 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/history/categories-trend.json
+03:45:26.558 DEBUG: 'reports/reports/reports/reports/history/categories-trend.json' generated metadata with charset 'UTF-8'
+03:45:26.560 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/history/categories-trend.json
+03:45:26.569 DEBUG: 'reports/reports/reports/reports/9afe5c59-01b9-4792-adcc-839d2d0cd124-result.json' generated metadata with charset 'UTF-8'
+03:45:26.570 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/9afe5c59-01b9-4792-adcc-839d2d0cd124-result.json
+03:45:26.581 DEBUG: 'reports/reports/reports/reports/20ab37c1-7348-4c91-98c8-9aa66a41814e-container.json' generated metadata with charset 'UTF-8'
+03:45:26.582 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/20ab37c1-7348-4c91-98c8-9aa66a41814e-container.json
+03:45:26.590 DEBUG: 'reports/reports/reports/reports/reports/bcf7bb05-8f4a-44c6-94ea-de32681305e6-result.json' generated metadata with charset 'UTF-8'
+03:45:26.591 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/bcf7bb05-8f4a-44c6-94ea-de32681305e6-result.json
+03:45:26.598 DEBUG: 'reports/reports/reports/reports/reports/history/history-trend.json' generated metadata with charset 'UTF-8'
+03:45:26.599 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/history/history-trend.json
+03:45:26.615 DEBUG: 'reports/reports/reports/reports/b2e96045-3a6b-403f-85c9-336bf162bb82-container.json' generated metadata with charset 'UTF-8'
+03:45:26.617 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/b2e96045-3a6b-403f-85c9-336bf162bb82-container.json
+03:45:26.624 DEBUG: 'reports/reports/reports/3e0bafa1-16d3-4c64-b554-591f68a75af0-result.json' generated metadata with charset 'UTF-8'
+03:45:26.627 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/3e0bafa1-16d3-4c64-b554-591f68a75af0-result.json
+03:45:26.632 DEBUG: 'reports/reports/3e0bafa1-16d3-4c64-b554-591f68a75af0-result.json' generated metadata with charset 'UTF-8'
+03:45:26.634 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/3e0bafa1-16d3-4c64-b554-591f68a75af0-result.json
+03:45:26.641 DEBUG: 'reports/reports/reports/bcf7bb05-8f4a-44c6-94ea-de32681305e6-result.json' generated metadata with charset 'UTF-8'
+03:45:26.644 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/bcf7bb05-8f4a-44c6-94ea-de32681305e6-result.json
+03:45:26.653 DEBUG: 'reports/reports/reports/reports/bcf7bb05-8f4a-44c6-94ea-de32681305e6-result.json' generated metadata with charset 'UTF-8'
+03:45:26.655 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/bcf7bb05-8f4a-44c6-94ea-de32681305e6-result.json
+03:45:26.661 DEBUG: 'reports/reports/reports/reports/reports/reports/executor.json' generated metadata with charset 'UTF-8'
+03:45:26.662 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/reports/executor.json
+03:45:26.676 DEBUG: 'reports/reports/reports/bf7cea25-b02c-4760-b704-12de644f64ba-result.json' generated metadata with charset 'UTF-8'
+03:45:26.679 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/bf7cea25-b02c-4760-b704-12de644f64ba-result.json
+03:45:26.689 DEBUG: 'reports/reports/reports/reports/bf7cea25-b02c-4760-b704-12de644f64ba-result.json' generated metadata with charset 'UTF-8'
+03:45:26.690 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/bf7cea25-b02c-4760-b704-12de644f64ba-result.json
+03:45:26.701 DEBUG: 'reports/reports/reports/e86d9837-dbad-411b-835f-6dc806b464ef-container.json' generated metadata with charset 'UTF-8'
+03:45:26.703 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/e86d9837-dbad-411b-835f-6dc806b464ef-container.json
+03:45:26.708 DEBUG: 'reports/reports/b2e96045-3a6b-403f-85c9-336bf162bb82-container.json' generated metadata with charset 'UTF-8'
+03:45:26.709 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/b2e96045-3a6b-403f-85c9-336bf162bb82-container.json
+03:45:26.716 DEBUG: 'reports/reports/reports/reports/e8db291a-103d-437b-93bb-ad6f494d0dc2-result.json' generated metadata with charset 'UTF-8'
+03:45:26.717 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/e8db291a-103d-437b-93bb-ad6f494d0dc2-result.json
+03:45:26.725 DEBUG: 'reports/reports/235b1a06-6317-4462-9015-613cc7d4fb18-container.json' generated metadata with charset 'UTF-8'
+03:45:26.726 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/235b1a06-6317-4462-9015-613cc7d4fb18-container.json
+03:45:26.740 DEBUG: 'reports/reports/reports/testrun.json' generated metadata with charset 'UTF-8'
+03:45:26.742 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/testrun.json
+03:45:26.746 DEBUG: 'reports/history/history-trend.json' generated metadata with charset 'UTF-8'
+03:45:26.749 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/history/history-trend.json
+03:45:26.755 DEBUG: 'reports/reports/a23b4338-16e5-4f24-ab6d-dc1da73b65e1-result.json' generated metadata with charset 'UTF-8'
+03:45:26.759 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/a23b4338-16e5-4f24-ab6d-dc1da73b65e1-result.json
+03:45:26.767 DEBUG: 'reports/reports/reports/reports/reports/bf7cea25-b02c-4760-b704-12de644f64ba-result.json' generated metadata with charset 'UTF-8'
+03:45:26.769 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/bf7cea25-b02c-4760-b704-12de644f64ba-result.json
+03:45:26.775 DEBUG: 'reports/reports/reports/reports/history/duration-trend.json' generated metadata with charset 'UTF-8'
+03:45:26.778 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/history/duration-trend.json
+03:45:26.784 DEBUG: 'reports/reports/6f1250d4-5f68-4b7f-ac1c-ff44032c371c-result.json' generated metadata with charset 'UTF-8'
+03:45:26.786 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/6f1250d4-5f68-4b7f-ac1c-ff44032c371c-result.json
+03:45:26.790 DEBUG: 'reports/reports/881775c8-dae0-443e-b54e-bccb918c231e-result.json' generated metadata with charset 'UTF-8'
+03:45:26.792 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/881775c8-dae0-443e-b54e-bccb918c231e-result.json
+03:45:26.806 DEBUG: 'reports/reports/reports/history/history-trend.json' generated metadata with charset 'UTF-8'
+03:45:26.807 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/history/history-trend.json
+03:45:26.812 DEBUG: 'reports/reports/d40549f2-cfc5-4c39-a2b7-a1ad78a553c1-result.json' generated metadata with charset 'UTF-8'
+03:45:26.814 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/d40549f2-cfc5-4c39-a2b7-a1ad78a553c1-result.json
+03:45:26.820 DEBUG: 'reports/reports/reports/f0316be1-9c9d-4dea-9ba4-d9fdac41647d-result.json' generated metadata with charset 'UTF-8'
+03:45:26.826 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/f0316be1-9c9d-4dea-9ba4-d9fdac41647d-result.json
+03:45:26.830 DEBUG: 'reports/history/duration-trend.json' generated metadata with charset 'UTF-8'
+03:45:26.832 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/history/duration-trend.json
+03:45:26.839 DEBUG: 'reports/reports/reports/e8db291a-103d-437b-93bb-ad6f494d0dc2-result.json' generated metadata with charset 'UTF-8'
+03:45:26.840 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/e8db291a-103d-437b-93bb-ad6f494d0dc2-result.json
+03:45:26.847 DEBUG: 'reports/reports/reports/reports/history/retry-trend.json' generated metadata with charset 'UTF-8'
+03:45:26.849 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/history/retry-trend.json
+03:45:26.853 DEBUG: 'reports/reports/87cad48b-f949-452a-a27b-7c7901b8d9c3-container.json' generated metadata with charset 'UTF-8'
+03:45:26.854 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/87cad48b-f949-452a-a27b-7c7901b8d9c3-container.json
+03:45:26.869 DEBUG: 'reports/reports/history/history-trend.json' generated metadata with charset 'UTF-8'
+03:45:26.870 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/history/history-trend.json
+03:45:26.877 DEBUG: 'reports/reports/reports/reports/reports/history/categories-trend.json' generated metadata with charset 'UTF-8'
+03:45:26.878 DEBUG: File without identifier 'AWSTemplateFormatVersion': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/history/categories-trend.json
+03:45:26.881 INFO: 0 source files to be analyzed
+03:45:26.886 INFO: 0/0 source files have been analyzed
+03:45:26.890 INFO: Sensor IaC CloudFormation Sensor [iac] (done) | time=1007ms
+03:45:26.891 INFO: Sensor IaC AzureResourceManager Sensor [iac]
+03:45:26.893 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/235b1a06-6317-4462-9015-613cc7d4fb18-container.json
+03:45:26.897 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/c816e014-3a48-4af5-9c39-5a40e4e14f0d-result.json
+03:45:26.900 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/history/duration-trend.json
+03:45:26.903 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/history/history.json
+03:45:26.906 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/f0316be1-9c9d-4dea-9ba4-d9fdac41647d-result.json
+03:45:26.908 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/history/retry-trend.json
+03:45:26.912 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/executor.json
+03:45:26.914 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/d40549f2-cfc5-4c39-a2b7-a1ad78a553c1-result.json
+03:45:26.916 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/executor.json
+03:45:26.919 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/executor.json
+03:45:26.921 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/9afe5c59-01b9-4792-adcc-839d2d0cd124-result.json
+03:45:26.930 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/history/categories-trend.json
+03:45:26.932 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/0de7b51f-c235-467d-b3db-bd7988aaaaae-container.json
+03:45:26.935 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/9afe5c59-01b9-4792-adcc-839d2d0cd124-result.json
+03:45:26.939 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/e4992f85-3250-4dd5-a1c4-251a462fe184-result.json
+03:45:26.942 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/e4992f85-3250-4dd5-a1c4-251a462fe184-result.json
+03:45:26.944 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/20ab37c1-7348-4c91-98c8-9aa66a41814e-container.json
+03:45:26.950 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/87cad48b-f949-452a-a27b-7c7901b8d9c3-container.json
+03:45:26.953 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/c816e014-3a48-4af5-9c39-5a40e4e14f0d-result.json
+03:45:26.956 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/history/retry-trend.json
+03:45:26.959 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/e8db291a-103d-437b-93bb-ad6f494d0dc2-result.json
+03:45:26.962 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/history/categories-trend.json
+03:45:26.964 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/testrun.json
+03:45:26.967 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/testrun.json
+03:45:26.969 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/f0316be1-9c9d-4dea-9ba4-d9fdac41647d-result.json
+03:45:26.972 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/235b1a06-6317-4462-9015-613cc7d4fb18-container.json
+03:45:26.974 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/history/history.json
+03:45:26.977 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/history/retry-trend.json
+03:45:26.982 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/executor.json
+03:45:26.985 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/reports/e8db291a-103d-437b-93bb-ad6f494d0dc2-result.json
+03:45:26.994 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/history/history.json
+03:45:26.996 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/executor.json
+03:45:27.000 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/reports/testrun.json
+03:45:27.002 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/e86d9837-dbad-411b-835f-6dc806b464ef-container.json
+03:45:27.009 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/c816e014-3a48-4af5-9c39-5a40e4e14f0d-result.json
+03:45:27.012 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/history/history.json
+03:45:27.015 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/881775c8-dae0-443e-b54e-bccb918c231e-result.json
+03:45:27.019 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/235b1a06-6317-4462-9015-613cc7d4fb18-container.json
+03:45:27.021 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/235b1a06-6317-4462-9015-613cc7d4fb18-container.json
+03:45:27.023 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/history/history.json
+03:45:27.026 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/bcf7bb05-8f4a-44c6-94ea-de32681305e6-result.json
+03:45:27.028 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/history/history-trend.json
+03:45:27.031 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/87cad48b-f949-452a-a27b-7c7901b8d9c3-container.json
+03:45:27.034 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/bcf7bb05-8f4a-44c6-94ea-de32681305e6-result.json
+03:45:27.036 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/87cad48b-f949-452a-a27b-7c7901b8d9c3-container.json
+03:45:27.039 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/bf7cea25-b02c-4760-b704-12de644f64ba-result.json
+03:45:27.041 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/e4992f85-3250-4dd5-a1c4-251a462fe184-result.json
+03:45:27.045 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/reports/235b1a06-6317-4462-9015-613cc7d4fb18-container.json
+03:45:27.054 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/reports/bcf7bb05-8f4a-44c6-94ea-de32681305e6-result.json
+03:45:27.057 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/e8db291a-103d-437b-93bb-ad6f494d0dc2-result.json
+03:45:27.063 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/b2e96045-3a6b-403f-85c9-336bf162bb82-container.json
+03:45:27.065 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/history/duration-trend.json
+03:45:27.067 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/e4992f85-3250-4dd5-a1c4-251a462fe184-result.json
+03:45:27.074 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/testrun.json
+03:45:27.076 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/20ab37c1-7348-4c91-98c8-9aa66a41814e-container.json
+03:45:27.080 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/history/retry-trend.json
+03:45:27.085 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/20ab37c1-7348-4c91-98c8-9aa66a41814e-container.json
+03:45:27.089 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/history/duration-trend.json
+03:45:27.091 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/e4992f85-3250-4dd5-a1c4-251a462fe184-result.json
+03:45:27.095 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/reports/e4992f85-3250-4dd5-a1c4-251a462fe184-result.json
+03:45:27.098 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/d40549f2-cfc5-4c39-a2b7-a1ad78a553c1-result.json
+03:45:27.101 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/testrun.json
+03:45:27.119 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/reports/c816e014-3a48-4af5-9c39-5a40e4e14f0d-result.json
+03:45:27.122 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/c816e014-3a48-4af5-9c39-5a40e4e14f0d-result.json
+03:45:27.124 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/reports/87cad48b-f949-452a-a27b-7c7901b8d9c3-container.json
+03:45:27.148 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/f0316be1-9c9d-4dea-9ba4-d9fdac41647d-result.json
+03:45:27.151 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/history/categories-trend.json
+03:45:27.155 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/history/categories-trend.json
+03:45:27.157 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/9afe5c59-01b9-4792-adcc-839d2d0cd124-result.json
+03:45:27.159 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/20ab37c1-7348-4c91-98c8-9aa66a41814e-container.json
+03:45:27.165 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/bcf7bb05-8f4a-44c6-94ea-de32681305e6-result.json
+03:45:27.169 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/history/history-trend.json
+03:45:27.173 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/b2e96045-3a6b-403f-85c9-336bf162bb82-container.json
+03:45:27.176 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/3e0bafa1-16d3-4c64-b554-591f68a75af0-result.json
+03:45:27.178 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/3e0bafa1-16d3-4c64-b554-591f68a75af0-result.json
+03:45:27.181 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/bcf7bb05-8f4a-44c6-94ea-de32681305e6-result.json
+03:45:27.183 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/bcf7bb05-8f4a-44c6-94ea-de32681305e6-result.json
+03:45:27.186 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/reports/executor.json
+03:45:27.189 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/bf7cea25-b02c-4760-b704-12de644f64ba-result.json
+03:45:27.191 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/bf7cea25-b02c-4760-b704-12de644f64ba-result.json
+03:45:27.194 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/e86d9837-dbad-411b-835f-6dc806b464ef-container.json
+03:45:27.197 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/b2e96045-3a6b-403f-85c9-336bf162bb82-container.json
+03:45:27.206 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/e8db291a-103d-437b-93bb-ad6f494d0dc2-result.json
+03:45:27.210 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/235b1a06-6317-4462-9015-613cc7d4fb18-container.json
+03:45:27.215 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/testrun.json
+03:45:27.217 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/history/history-trend.json
+03:45:27.220 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/a23b4338-16e5-4f24-ab6d-dc1da73b65e1-result.json
+03:45:27.222 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/bf7cea25-b02c-4760-b704-12de644f64ba-result.json
+03:45:27.227 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/history/duration-trend.json
+03:45:27.230 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/6f1250d4-5f68-4b7f-ac1c-ff44032c371c-result.json
+03:45:27.232 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/881775c8-dae0-443e-b54e-bccb918c231e-result.json
+03:45:27.237 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/history/history-trend.json
+03:45:27.239 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/d40549f2-cfc5-4c39-a2b7-a1ad78a553c1-result.json
+03:45:27.243 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/f0316be1-9c9d-4dea-9ba4-d9fdac41647d-result.json
+03:45:27.245 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/history/duration-trend.json
+03:45:27.247 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/e8db291a-103d-437b-93bb-ad6f494d0dc2-result.json
+03:45:27.250 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/history/retry-trend.json
+03:45:27.252 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/87cad48b-f949-452a-a27b-7c7901b8d9c3-container.json
+03:45:27.255 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/history/history-trend.json
+03:45:27.258 DEBUG: File without identifier 'https://schema.management.azure.com/schemas/': file:///var/jenkins_home/workspace/test_app_pipeline/my_app/reports/reports/reports/reports/reports/history/categories-trend.json
+03:45:27.268 INFO: 0 source files to be analyzed
+03:45:27.324 INFO: 0/0 source files have been analyzed
+03:45:27.325 INFO: Sensor IaC AzureResourceManager Sensor [iac] (done) | time=434ms
+03:45:27.327 INFO: Sensor CSS Rules [javascript]
+03:45:27.329 INFO: No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+03:45:27.330 INFO: Sensor CSS Rules [javascript] (done) | time=3ms
+03:45:27.332 INFO: Sensor C# Project Type Information [csharp]
+03:45:27.335 INFO: Sensor C# Project Type Information [csharp] (done) | time=3ms
+03:45:27.343 INFO: Sensor C# Analysis Log [csharp]
+03:45:27.362 DEBUG: Project 'sonar_test_app': Property missing: 'sonar.cs.analyzer.projectOutPaths'. No protobuf files will be loaded for this project.
+03:45:27.364 INFO: Sensor C# Analysis Log [csharp] (done) | time=21ms
+03:45:27.366 INFO: Sensor C# Properties [csharp]
+03:45:27.366 DEBUG: Project 'sonar_test_app': Property missing: 'sonar.cs.analyzer.projectOutPaths'. No protobuf files will be loaded for this project.
+03:45:27.367 DEBUG: Project 'sonar_test_app': No Roslyn issues reports have been found.
+03:45:27.369 INFO: Sensor C# Properties [csharp] (done) | time=3ms
+03:45:27.371 INFO: Sensor HTML [web]
+03:45:27.375 INFO: Sensor HTML [web] (done) | time=4ms
+03:45:27.376 INFO: Sensor TextAndSecretsSensor [text]
+03:45:27.755 INFO: 103 source files to be analyzed
+03:45:28.808 DEBUG: 'Dockerfile' generated metadata with charset 'UTF-8'
+03:45:28.881 INFO: 103/103 source files have been analyzed
+03:45:28.884 INFO: Sensor TextAndSecretsSensor [text] (done) | time=1508ms
+03:45:28.885 INFO: Sensor VB.NET Project Type Information [vbnet]
+03:45:28.887 INFO: Sensor VB.NET Project Type Information [vbnet] (done) | time=2ms
+03:45:28.888 INFO: Sensor VB.NET Analysis Log [vbnet]
+03:45:28.912 DEBUG: Project 'sonar_test_app': Property missing: 'sonar.vbnet.analyzer.projectOutPaths'. No protobuf files will be loaded for this project.
+03:45:28.919 INFO: Sensor VB.NET Analysis Log [vbnet] (done) | time=31ms
+03:45:28.921 INFO: Sensor VB.NET Properties [vbnet]
+03:45:28.921 DEBUG: Project 'sonar_test_app': Property missing: 'sonar.vbnet.analyzer.projectOutPaths'. No protobuf files will be loaded for this project.
+03:45:28.923 DEBUG: Project 'sonar_test_app': No Roslyn issues reports have been found.
+03:45:28.924 INFO: Sensor VB.NET Properties [vbnet] (done) | time=3ms
+03:45:28.925 INFO: Sensor IaC Docker Sensor [iac]
+03:45:28.929 INFO: 1 source file to be analyzed
+03:45:29.070 INFO: 1/1 source file has been analyzed
+03:45:29.073 INFO: Sensor IaC Docker Sensor [iac] (done) | time=148ms
+03:45:29.079 INFO: ------------- Run sensors on project
+03:45:29.139 DEBUG: 'Generic Coverage Report' skipped because one of the required properties is missing
+03:45:29.143 DEBUG: 'Import external issues report from SARIF file.' skipped because one of the required properties is missing
+03:45:29.145 DEBUG: 'C#' skipped because there is no related file in current project
+03:45:29.146 DEBUG: 'C# File Caching Sensor' skipped because there is no related file in current project
+03:45:29.149 DEBUG: 'C# Tests Coverage Report Import' skipped because there is no related file in current project
+03:45:29.150 DEBUG: '[Deprecated] C# Integration Tests Coverage Report Import' skipped because there is no related file in current project
+03:45:29.152 DEBUG: 'C# Unit Test Results Import' skipped because there is no related file in current project
+03:45:29.153 DEBUG: 'VB.NET' skipped because there is no related file in current project
+03:45:29.155 DEBUG: 'VB.NET File Caching Sensor' skipped because there is no related file in current project
+03:45:29.157 DEBUG: 'VB.NET Tests Coverage Report Import' skipped because there is no related file in current project
+03:45:29.158 DEBUG: '[Deprecated] VB.NET Integration Tests Coverage Report Import' skipped because there is no related file in current project
+03:45:29.160 DEBUG: 'VB.NET Unit Test Results Import' skipped because there is no related file in current project
+03:45:29.161 DEBUG: 'Java CPD Block Indexer' skipped because there is no related file in current project
+03:45:29.166 DEBUG: Sensors : Analysis Warnings import -> Zero Coverage Sensor
+03:45:29.174 INFO: Sensor Analysis Warnings import [csharp]
+03:45:29.177 INFO: Sensor Analysis Warnings import [csharp] (done) | time=2ms
+03:45:29.178 INFO: Sensor Zero Coverage Sensor
+03:45:29.355 INFO: Sensor Zero Coverage Sensor (done) | time=177ms
+03:45:29.390 INFO: CPD Executor 1 file had no CPD blocks
+03:45:29.391 INFO: CPD Executor Calculating CPD for 1 file
+03:45:29.393 DEBUG: Detection of duplications for /var/jenkins_home/workspace/test_app_pipeline/my_app/test_main.py
+03:45:29.402 INFO: CPD Executor CPD calculation finished (done) | time=8ms
+03:45:29.448 DEBUG: SCM revision ID '152eb630608c30567cc8e2a5449589c5ddb20e86'
+03:45:29.689 INFO: Analysis report generated in 230ms, dir size=146.8 kB
+03:45:33.664 INFO: Analysis report compressed in 3971ms, zip size=22.4 kB
+03:45:33.665 INFO: Analysis report generated in /var/jenkins_home/workspace/test_app_pipeline/my_app/.scannerwork/scanner-report
+03:45:33.666 DEBUG: Upload report
+03:45:34.187 DEBUG: POST 200 https://da32-188-244-13-153.ngrok-free.app/api/ce/submit?projectKey=sonar_test_app | time=519ms
+03:45:34.197 INFO: Analysis report uploaded in 530ms
+03:45:34.208 DEBUG: Report metadata written to /var/jenkins_home/workspace/test_app_pipeline/my_app/.scannerwork/report-task.txt
+03:45:34.209 INFO: ANALYSIS SUCCESSFUL, you can find the results at: https://da32-188-244-13-153.ngrok-free.app/dashboard?id=sonar_test_app
+03:45:34.213 INFO: Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+03:45:34.215 INFO: More about the report processing at https://da32-188-244-13-153.ngrok-free.app/api/ce/task?id=AYxW-uu6zNpIsTSa5mLF
+03:45:34.219 DEBUG: Post-jobs : 
+03:45:34.238 INFO: Analysis total time: 19.856 s
+03:45:34.241 INFO: ------------------------------------------------------------------------
+03:45:34.242 INFO: EXECUTION SUCCESS
+03:45:34.243 INFO: ------------------------------------------------------------------------
+03:45:34.244 INFO: Total time: 22.052s
+03:45:34.281 INFO: Final Memory: 25M/90M
+03:45:34.282 INFO: ------------------------------------------------------------------------
+[8mha:////4NKUe9NbagFu/7r3kmoklFA53p1/iQeQNw6bbyQZEFT3AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7Nxbzd2K+AAAA[0m[Pipeline] }
+[8mha:////4B9WBq33ai6bfqiNFr28nilapDMZuMzLlhU9kfGSWk3LAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSpLBwrGwZGk+ACSKE+Z8AkVSeyKt5B9HMWLnFzr5t3vMF6xjgSEEzq3AwGDvDvJt0WSxTGK6OMrN0YR1hJKeYUFlQr04LCkoKllQ1rDhsFHaOokGdYMutvMvGSdTNOYXyHTjUph/hARUv5iRD+sIcYHeb+kj48/wVwOx9grrdf6p9AxC1Tze+AAAA[0m[Pipeline] // withSonarQubeEnv
+[8mha:////4GzpjBIrFSrRoMWZXLjsxrQ4YF3lIT580GlvUCX2BcIbAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQQESSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryd8i13X8AnfJv2L4AAAA=[0m[Pipeline] }
+[8mha:////4CKkgJK3CqbANK9ezpJGItaQ9OqvrDzdFlarmRvp093pAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigYSEUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUu0Ou7f4DrhE0ZL4AAAA=[0m[Pipeline] // stage
+[8mha:////4NjJ0H2EAAXUguZDlN+d8lK3ABcNwSd2BTAEhSQsc5SiAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJY0DlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyci/Iyg82uoiCvQAAAA==[0m[Pipeline] }
+[8mha:////4DWweWOJ0idrawMxyrLjQYIDejpkE3Kh/YfJzGLCi3/UAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRgg5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77eCbPcBJQaMIb0AAAA=[0m[Pipeline] // node
+[8mha:////4EvmcqxVQdXj6O1Tj09JXT/fbwFBgh+8nvOTnv58hS2AAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkxM04uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0g35eCrPwAY0wrEb0AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

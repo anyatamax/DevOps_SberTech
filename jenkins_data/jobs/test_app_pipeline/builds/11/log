@@ -1,0 +1,188 @@
+Started by user [8mha:////4DXzqb/P0g4+3IeEV1FfumtMLlRmcFFdUMiwkSEQeauUAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[8mha:////4KBRdd9kyDzTnPIjrQUEAhMndHTM6neHMz7S6PaKhAmiAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4FLPqtTresJw9shBfVOq2o96MD28dUC3TSwkEUTvRz8qAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4ClHgONCJXr8L0L7VwcUF73Evi4R+u0HSg6cMrspc/c0AAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/test_app_pipeline
+[8mha:////4FgtdmuWtm3iS0a0IQCZbxUB4kh/Ep53blC6tQtmgeizAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4G6z+QR6+D7O+20xgVoNeevciEsVGtzwDkE9uFSL5HkQAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4D8jVQzYrTnMXffBZ+BZwA4TK8A7FGJ3Txiw/6OhPeCWAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Pull Git)
+[8mha:////4FKvWXFAZd4SydjgsPtST68lfQ2ktBqyZKBOtgvOD3GAAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] git
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/test_app_pipeline/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/anyatamax/DevOps_SberTech.git # timeout=10
+Fetching upstream changes from https://github.com/anyatamax/DevOps_SberTech.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+ > git fetch --tags --force --progress -- https://github.com/anyatamax/DevOps_SberTech.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/lab4^{commit} # timeout=10
+Checking out Revision 152eb630608c30567cc8e2a5449589c5ddb20e86 (refs/remotes/origin/lab4)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 152eb630608c30567cc8e2a5449589c5ddb20e86 # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D lab4 # timeout=10
+ > git checkout -b lab4 152eb630608c30567cc8e2a5449589c5ddb20e86 # timeout=10
+Commit message: "add sonar"
+ > git rev-list --no-walk 152eb630608c30567cc8e2a5449589c5ddb20e86 # timeout=10
+[8mha:////4HbpAaCeRqbkRgNpCTi9j8VMf+RcHPZnXXOV7wSzZuSbAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4OOe0xFVxGGbMKE7c6JWVUKCTzzr5ZL23yTmqzkC1yzaAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4IxrMzEtnz5qsAXebGiARsdrGSwdqwF3ocM2X5W36Uc7AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] stage
+[8mha:////4LhC7DCRkQheJtp+2dKHRg6GlxFCrU263n6886jalDQyAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (Build)
+[8mha:////4MKuYiwJgHFYs84qPG7MpW9RSRHTM9QxkjF9+6lq4xCVAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] sh
++ cd my_app
+[8mha:////4LAkRYG3Hph+jrkkaE1ibgKPgwwYhm3YI0ou38K6vBGdAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs35DNwLL4AAAA=[0m[Pipeline] sh
++ docker build -t app .
+#1 [internal] load build definition from Dockerfile
+#1 sha256:62804cb55cb723b5f23cca77dd42ec1807daf8d3780a5585d8d60818b296e3be
+#1 transferring dockerfile: 32B 0.0s done
+#1 DONE 0.0s
+
+#2 [internal] load .dockerignore
+#2 sha256:28d057dc74409a12f3ac2a5883d1d9a0330bdb2d85fd368daf7ffad2bd7bf718
+#2 transferring context: 2B 0.0s done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/jenkins/jenkins:lts
+#3 sha256:9419321baef272a7ab1f16ae9c3010b2fd2f4aeb5666f44435d6a46a9f182895
+#3 DONE 0.5s
+
+#4 [1/3] FROM docker.io/jenkins/jenkins:lts@sha256:c2323612c5da6a2d37f2cd6147b004a4ccceca223a85c07c70bb7ae1f663666a
+#4 sha256:1115d904a2d2d07e3d6875f0af50494906654a86c1bfc274e609fc90403fafd0
+#4 DONE 0.0s
+
+#5 [2/3] RUN curl -L "https://github.com/docker/compose/releases/download/v2.14.0/docker-compose-Linux-x86_64" -o /usr/local/bin/docker-compose
+#5 sha256:e589aff11611f59f87999a4cfdf99bc1a311e6404cbecea5ef48fb97ad814684
+#5 CACHED
+
+#6 [3/3] RUN chmod +x /usr/local/bin/docker-compose
+#6 sha256:569e6356e938ab7d4c93d1ad127b9111a9d5709448b3e967c95b545f0af36836
+#6 CACHED
+
+#7 exporting to image
+#7 sha256:e8c613e07b0b7ff33893b694f7759a10d42e180f2b4dc349fb57dc6b71dcab00
+#7 exporting layers done
+#7 writing image sha256:ddbcde0f94d22f80ebf5299a01ac0f10478a8d60f6cc0f0fe4e94b82da3a1484 done
+#7 naming to docker.io/library/app done
+#7 DONE 0.0s
+[8mha:////4KvXoIjrrfzqOub1BaaG9IqTUKJfdEhy0/78qXdaDsgaAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaJm7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPYJ6rb91N6/ASOlMWO+AAAA[0m[Pipeline] sh
++ docker run --name jenkins_app app
+Running from: /usr/share/jenkins/jenkins.war
+webroot: /var/jenkins_home/war
+2023-12-10 16:53:54.483+0000 [id=1]	INFO	winstone.Logger#logInternal: Beginning extraction from war file
+2023-12-10 16:53:55.463+0000 [id=1]	WARNING	o.e.j.s.handler.ContextHandler#setContextPath: Empty contextPath
+2023-12-10 16:53:55.511+0000 [id=1]	INFO	org.eclipse.jetty.server.Server#doStart: jetty-10.0.17; built: 2023-10-02T04:04:10.314Z; git: a0f5f05abaa6c3aabb7c3d35f10a6f412ab8b05f; jvm 17.0.9+9
+2023-12-10 16:53:55.763+0000 [id=1]	INFO	o.e.j.w.StandardDescriptorProcessor#visitServlet: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+2023-12-10 16:53:55.809+0000 [id=1]	INFO	o.e.j.s.s.DefaultSessionIdManager#doStart: Session workerName=node0
+2023-12-10 16:53:56.230+0000 [id=1]	INFO	hudson.WebAppMain#contextInitialized: Jenkins home directory: /var/jenkins_home found at: EnvVars.masterEnvVars.get("JENKINS_HOME")
+2023-12-10 16:53:56.352+0000 [id=1]	INFO	o.e.j.s.handler.ContextHandler#doStart: Started w.@27b45ea{Jenkins v2.426.1,/,file:///var/jenkins_home/war/,AVAILABLE}{/var/jenkins_home/war}
+2023-12-10 16:53:56.370+0000 [id=1]	INFO	o.e.j.server.AbstractConnector#doStart: Started ServerConnector@37ddb69a{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2023-12-10 16:53:56.381+0000 [id=1]	INFO	org.eclipse.jetty.server.Server#doStart: Started Server@43aaf813{STARTING}[10.0.17,sto=0] @2384ms
+2023-12-10 16:53:56.383+0000 [id=26]	INFO	winstone.Logger#logInternal: Winstone Servlet Engine running: controlPort=disabled
+2023-12-10 16:53:56.622+0000 [id=34]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+2023-12-10 16:53:56.649+0000 [id=33]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+2023-12-10 16:53:57.254+0000 [id=40]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+2023-12-10 16:53:57.259+0000 [id=37]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+2023-12-10 16:53:57.268+0000 [id=36]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+2023-12-10 16:53:57.425+0000 [id=39]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+2023-12-10 16:53:57.426+0000 [id=32]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+2023-12-10 16:53:57.426+0000 [id=37]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+2023-12-10 16:53:57.429+0000 [id=37]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+2023-12-10 16:53:57.481+0000 [id=54]	INFO	hudson.util.Retrier#start: Attempt #1 to do the action check updates server
+2023-12-10 16:53:57.836+0000 [id=38]	INFO	jenkins.install.SetupWizard#init: 
+
+*************************************************************
+*************************************************************
+*************************************************************
+
+Jenkins initial setup is required. An admin user has been created and a password generated.
+Please use the following password to proceed to installation:
+
+3df45435b0c243d59e2a6f21c209e6f6
+
+This may also be found at: /var/jenkins_home/secrets/initialAdminPassword
+
+*************************************************************
+*************************************************************
+*************************************************************
+
+Sending interrupt signal to process
+Aborted by [8mha:////4DXzqb/P0g4+3IeEV1FfumtMLlRmcFFdUMiwkSEQeauUAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+2023-12-10 16:54:29.086+0000 [id=27]	INFO	winstone.Logger#logInternal: JVM is terminating. Shutting down Jetty
+2023-12-10 16:54:29.087+0000 [id=27]	INFO	org.eclipse.jetty.server.Server#doStop: Stopped Server@43aaf813{STOPPING}[10.0.17,sto=0]
+2023-12-10 16:54:29.090+0000 [id=27]	INFO	o.e.j.server.AbstractConnector#doStop: Stopped ServerConnector@37ddb69a{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2023-12-10 16:54:29.091+0000 [id=27]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+2023-12-10 16:54:29.094+0000 [id=27]	INFO	jenkins.model.Jenkins$16#onAttained: Started termination
+2023-12-10 16:54:29.100+0000 [id=27]	INFO	jenkins.model.Jenkins$16#onAttained: Completed termination
+2023-12-10 16:54:29.101+0000 [id=27]	INFO	jenkins.model.Jenkins#_cleanUpDisconnectComputers: Starting node disconnection
+2023-12-10 16:54:29.131+0000 [id=27]	INFO	jenkins.model.Jenkins#_cleanUpShutdownPluginManager: Stopping plugin manager
+2023-12-10 16:54:29.131+0000 [id=27]	INFO	jenkins.model.Jenkins#_cleanUpPersistQueue: Persisting build queue
+2023-12-10 16:54:29.136+0000 [id=27]	INFO	jenkins.model.Jenkins#_cleanUpAwaitDisconnects: Waiting for node disconnection completion
+2023-12-10 16:54:29.136+0000 [id=27]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+2023-12-10 16:54:29.137+0000 [id=27]	INFO	hudson.WebAppMain#contextDestroyed: Shutting down a Jenkins instance that was still starting up
+java.lang.Throwable: reason
+	at hudson.WebAppMain.contextDestroyed(WebAppMain.java:383)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextDestroyed(ContextHandler.java:1059)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextDestroyed(ServletContextHandler.java:636)
+	at org.eclipse.jetty.server.handler.ContextHandler.contextDestroyed(ContextHandler.java:1016)
+	at org.eclipse.jetty.servlet.ServletHandler.doStop(ServletHandler.java:306)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:132)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:182)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:205)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:97)
+	at org.eclipse.jetty.security.SecurityHandler.doStop(SecurityHandler.java:412)
+	at org.eclipse.jetty.security.ConstraintSecurityHandler.doStop(ConstraintSecurityHandler.java:413)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:132)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:182)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:205)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:97)
+	at org.eclipse.jetty.server.session.SessionHandler.doStop(SessionHandler.java:497)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:132)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:182)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:205)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:97)
+	at org.eclipse.jetty.server.handler.ContextHandler.stopContext(ContextHandler.java:1039)
+	at org.eclipse.jetty.servlet.ServletContextHandler.stopContext(ServletContextHandler.java:399)
+	at org.eclipse.jetty.webapp.WebAppContext.stopContext(WebAppContext.java:1311)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStop(ContextHandler.java:1087)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStop(ServletContextHandler.java:312)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:132)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:182)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:205)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:97)
+	at org.eclipse.jetty.server.Server.doStop(Server.java:517)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:132)
+	at winstone.Launcher.shutdown(Launcher.java:442)
+	at winstone.ShutdownHook.run(ShutdownHook.java:28)
+2023-12-10 16:54:29.138+0000 [id=25]	SEVERE	hudson.util.BootFailure#publish: Failed to initialize Jenkins
+java.lang.InterruptedException
+	at java.base/java.lang.Object.wait(Native Method)
+	at java.base/java.lang.Object.wait(Object.java:338)
+	at org.jvnet.hudson.reactor.Reactor.execute(Reactor.java:288)
+	at jenkins.InitReactorRunner.run(InitReactorRunner.java:49)
+	at jenkins.model.Jenkins.executeReactor(Jenkins.java:1205)
+	at jenkins.model.Jenkins.<init>(Jenkins.java:992)
+	at hudson.model.Hudson.<init>(Hudson.java:86)
+	at hudson.model.Hudson.<init>(Hudson.java:82)
+	at hudson.WebAppMain$3.run(WebAppMain.java:247)
+Caused: hudson.util.HudsonFailedToLoad
+	at hudson.WebAppMain$3.run(WebAppMain.java:264)
+2023-12-10 16:54:29.147+0000 [id=27]	INFO	o.e.j.s.handler.ContextHandler#doStop: Stopped w.@27b45ea{Jenkins v2.426.1,/,null,STOPPED}{/var/jenkins_home/war}
+script returned exit code 143
+[8mha:////4JNKJ5Bk696ggWpDtbKDPGnZFpzn5mrVoFOc0XGwzrpnAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyKawcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfnAYgMb4AAAA=[0m[Pipeline] }
+[8mha:////4BOVs+pN3pSPH9Mff9WTykCyYPblA+JBdQ/S8SaxjtKnAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICDQ2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BqREs8C+AAAA[0m[Pipeline] // stage
+[8mha:////4FrbE8nULDtuwnOnQ+BzITh1FPNghSomQBbDWgb2CtP4AAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJCQKREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgtQ7HZfY7lGw7UL0zBAAAA[0m[Pipeline] stage
+[8mha:////4GThK9Sv/NnBTx5RKbDOnrUNF0u/3K5vshPURvUIfWXuAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] { (Allure report)
+Stage "Allure report" skipped due to earlier failure(s)
+[8mha:////4EFyGnfYFrZ8XDwIaUNy1pNbKAGxng0/42AJYq18VGyDAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiOhCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7ndf2r3BkN+Pj++AAAA[0m[Pipeline] }
+[8mha:////4DiixrIBjHJaME8DOA89ezlU1G5z2pNmZidWfWPUSPpLAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICNBQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AGHKGa5vgAAAA==[0m[Pipeline] // stage
+[8mha:////4Fs9BN53dME9cmr+mIZxcCrFfxpuzdry3p5zjfZjgJt9AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjEB2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INji2eq8EAAAA=[0m[Pipeline] stage
+[8mha:////4Eu4amRQEyZOKA9tKwrwWDjq4AeeJIYEDfn7DMLiqg3OAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] { (Sonar)
+Stage "Sonar" skipped due to earlier failure(s)
+[8mha:////4Pix+LOOH23k8FDFQxDKa+L8W4Ew2tPbJ2hO4KEHSTK5AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyE0vHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzN4nqNv9p9o3Zf21ZL4AAAA=[0m[Pipeline] }
+[8mha:////4NZ442s4YJMZP5VzuPZohDH++2omjuVIyb4veTkkIbqNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BmecueC+AAAA[0m[Pipeline] // stage
+[8mha:////4LlsbpF4kmVHyxSxYkeFwQpxnTSok5E5+Sn2MlXbpZj4AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsPW9YxnL0AAAA=[0m[Pipeline] }
+[8mha:////4HflYMYwQ8xKY3duOY/pJfmKDjbmFbOpKSR3miX6iNisAAAA+h+LCAAAAAAAAP9djrFOAzEQRPcughpRIjr6dSIkiIJSQQFSBEihj8xhfL4z3sXeI6HhI/gNaJD4BT6CH6CjpqDB6CqYZkYjvdE8f8JainBE0WJjQutCqhyy72xOuKTYXntaYuqYKQomMZzQBe4Ez8/mF8f3bKJ3oT0lMRvvg9ev/e+PEooZDLroBTZnjb7Tyutg1VyiC/ZgFWG77q4SBawoJPIG/6zsTZ9epo/8VkJ5AuveBCt1P3cLD1BkfOsfftj7Lwy9ihJgxTmgQLEjsFuL8EQpT5X2NSWZjIfjoWroUolJstDMC3Zs8gejRqNcxpsfTNosLRoBAAA=[0mClick here to forcibly terminate running steps
+[8mha:////4NDGqmgxYkaVKdko9Qb9qQr20MG6PkePPfddYxTEHZ9MAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQKJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9ACg59UW9AAAA[0m[Pipeline] // node
+[8mha:////4O/UYvmoJEn6XDatOQcfD01acTVw8F9Qdhqmkjs31rmeAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkLA7GybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FebkXZOUHDiCSD70AAAA=[0m[Pipeline] End of Pipeline
+org.jenkinsci.plugins.workflow.actions.ErrorAction$ErrorId: 3e40ecf6-9247-4f49-92d6-8bf4beaab37f
+Finished: ABORTED

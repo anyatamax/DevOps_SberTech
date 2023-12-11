@@ -1,0 +1,40 @@
+pipeline {
+    agent any
+    stages {
+        stage("Pull Git") {
+            steps {
+                git branch: 'lab4', url: 'https://github.com/anyatamax/DevOps_SberTech.git'
+            }
+        }
+        stage('Build') {
+            steps {
+                sh "docker build -t app my_app/."
+                sh "docker run --name jenkins_app app"
+                sh "docker cp jenkins_app:/my_app/reports my_app/reports/"
+            }
+        }
+        stage('Allure report') {
+                steps {
+                script {
+                  allure([
+                          includeProperties: false,
+                          jdk: '',
+                          properties: [],
+                          reportBuildPolicy: 'ALWAYS',
+                          results: [[path: 'my_app/reports']]
+                  ])
+                }
+                }
+        }
+        stage('SonarQube analysis') {
+            steps{
+                script{
+                    scannerHome = tool 'SonarQube 5';
+                }
+            withSonarQubeEnv('SonarQube 5') { // If you have configured more than one global server connection, you can specify its name
+            sh "${scannerHome}/bin/sonar-scanner -Dsonar.projectBaseDir=my_app -Dsonar.language=python -Dsonar.host.url=https://da32-188-244-13-153.ngrok-free.app -Dsonar.projectVersion=1.0 -Dsonar.sources=. -Dsonar.verbose=true -Dsonar.analysis.mode=publish -Dsonar.projectKey=sonar_test_app -X"
+            }
+            }
+        }
+    }
+}

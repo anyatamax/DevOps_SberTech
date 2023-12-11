@@ -19,3 +19,12 @@ sonar.sources=.
 sonar.verbose=true  
 sonar.analysis.mode=publish  
 sonar.projectKey=sonar_test_app  
+
+#### Pipeline Jenkins  
+Для работы в pipeline режиме необходимо прописать скрипт из файла Jenkins в pipeline джобе. Все остальные настройки остаются те же   
+
+#### Как запустить Jenkins  
+Запустить docker-compose up --build -d из главной директории. В этот момент в докер устанавливаются все необходимы зависимости и Jenkins будет доступен на http://localhost:8080/. Для входа: admin/93bfff3e8c0242e79731c2b36cefe85d  
+
+#### Результаты отчета Allure и SonarQube:  
+![Alt text](https://file%252B.vscode-resource.vscode-cdn.net/var/folders/tt/0y5vp5491yj963rmldffwhhnb83rqf/T/TemporaryItems/NSIRD_screencaptureui_hrOQZo/Screen%2520Shot%25202023-12-11%2520at%252006.52.15.png?version%253D1702266745527)

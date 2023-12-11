@@ -2,7 +2,7 @@
 <hudson.plugins.sonar.SonarGlobalConfiguration plugin="sonar@2.16.1">
   <installations>
     <hudson.plugins.sonar.SonarInstallation>
-      <name>My SonarQube</name>
+      <name>SonarQube 5</name>
       <serverUrl>http://localhost:9000</serverUrl>
       <credentialsId>f32580ae-a5fe-487f-85b5-fb420bf8181f</credentialsId>
       <webhookSecretId></webhookSecretId>
