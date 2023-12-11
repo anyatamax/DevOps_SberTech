@@ -12,7 +12,9 @@ Lab3
 <img width="1727" alt="Screen Shot 2023-12-10 at 18 44 23" src="https://github.com/anyatamax/DevOps_SberTech/assets/71087982/1044a89f-7efa-478a-b63e-021067bee179">  
 3) В конце создается allure report на основе тестов
 <img width="1719" alt="Screen Shot 2023-12-10 at 18 44 30" src="https://github.com/anyatamax/DevOps_SberTech/assets/71087982/91618c15-90da-489e-8a85-e155cd745a4c">  
-  
+
+<img width="1400" alt="Screen Shot 2023-12-11 at 07 01 23" src="https://github.com/anyatamax/DevOps_SberTech/assets/71087982/1d89208b-5a0e-4842-95a6-21a406ee00cb">  
+
 К джобе привязаны события (pull request and push) в github репозитории на ветку lab4 (для успешной работы надо прописать результат команды ngrok http 8080 в webhook на github)  
   
 Для работы SonarQube он должен быть запущен через докер: docker run -d --name sonarqube -e SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true -p 9000:9000 sonarqube:latest и через ngrok http 9000 получен адрес по которому можно обращаться к Sonar (актуальный адресс должен быть прописан в опициях к шагу с SonarQube)  
