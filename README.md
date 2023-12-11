@@ -27,4 +27,6 @@ sonar.projectKey=sonar_test_app
 Запустить docker-compose up --build -d из главной директории. В этот момент в докер устанавливаются все необходимы зависимости и Jenkins будет доступен на http://localhost:8080/. Для входа: admin/93bfff3e8c0242e79731c2b36cefe85d  
 
 #### Результаты отчета Allure и SonarQube:  
-![Alt text](https://file%252B.vscode-resource.vscode-cdn.net/var/folders/tt/0y5vp5491yj963rmldffwhhnb83rqf/T/TemporaryItems/NSIRD_screencaptureui_hrOQZo/Screen%2520Shot%25202023-12-11%2520at%252006.52.15.png?version%253D1702266745527)
+<img width="1726" alt="Screen Shot 2023-12-11 at 06 46 57" src="https://github.com/anyatamax/DevOps_SberTech/assets/71087982/1c63a5be-3391-455a-9c98-0123e4acaf1d">  
+<img width="1398" alt="Screen Shot 2023-12-11 at 06 55 36" src="https://github.com/anyatamax/DevOps_SberTech/assets/71087982/f0f06130-058d-4de3-b568-448202b53db3">
+
